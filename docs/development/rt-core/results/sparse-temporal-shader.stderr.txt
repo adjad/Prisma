@@ -1,0 +1,4 @@
+2026-09-14 10:03:02.848 temporal-proof[82829:7166359] Metal API Validation Enabled
+2026-09-14 10:03:02.848 temporal-proof[82829:7166359] Metal GPU Validation Enabled
+Dynamic temporal: variance ratio 0.084768, hard shadow error 0.000000, removed reflection error 0.000000
+Sparse radiance: MSE ratio 0.070493, energy ratio 0.996996, removed mean 0.00042648

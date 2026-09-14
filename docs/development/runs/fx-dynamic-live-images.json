@@ -1,0 +1,164 @@
+{
+  "framesPerMode": 12,
+  "resolution": [
+    1920,
+    1200
+  ],
+  "regions": {
+    "floor": {
+      "rectangle": [
+        200,
+        350,
+        600,
+        750
+      ],
+      "before": {
+        "meanRgb": [
+          61.84611354166667,
+          76.07340208333333,
+          94.6837734375
+        ],
+        "temporalVarianceRgb": [
+          0.14972274305565145,
+          0.2002769097223998,
+          0.2793221788195185
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          61.8173328125,
+          76.05731979166667,
+          94.71879010416667
+        ],
+        "temporalVarianceRgb": [
+          0.056340928819426574,
+          0.06902005208330399,
+          0.08819891493050946
+        ]
+      }
+    },
+    "contact": {
+      "rectangle": [
+        950,
+        570,
+        1120,
+        730
+      ],
+      "before": {
+        "meanRgb": [
+          48.68063419117647,
+          58.94286458333333,
+          72.39133272058824
+        ],
+        "temporalVarianceRgb": [
+          2.979224622140728,
+          4.640477685866474,
+          7.39737362132282
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          48.87048406862745,
+          59.18869791666667,
+          72.68901654411765
+        ],
+        "temporalVarianceRgb": [
+          0.34727430555553557,
+          0.5149129391339142,
+          0.7689289726308154
+        ]
+      }
+    },
+    "goldFace": {
+      "rectangle": [
+        980,
+        260,
+        1080,
+        450
+      ],
+      "before": {
+        "meanRgb": [
+          1.6849254385964911,
+          1.437127192982456,
+          0.035539473684210524
+        ],
+        "temporalVarianceRgb": [
+          0.3749740497076436,
+          0.3645098684210752,
+          0.02114437134502953
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          1.6948070175438597,
+          1.4005921052631578,
+          0.04285087719298246
+        ],
+        "temporalVarianceRgb": [
+          1.02712938596488,
+          0.9652708333332842,
+          0.03221052631578981
+        ]
+      }
+    },
+    "sky": {
+      "rectangle": [
+        20,
+        10,
+        100,
+        40
+      ],
+      "before": {
+        "meanRgb": [
+          181.0,
+          208.0,
+          255.0
+        ],
+        "temporalVarianceRgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          181.0,
+          208.0,
+          255.0
+        ],
+        "temporalVarianceRgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "interpretation": "Observed temporal variation in stationary-camera live series, not isolated Monte Carlo noise: natural entities can move. Regions selected from the visible fixture; full motion/ghosting acceptance remains open.",
+  "screenshots": {
+    "screenshots/series-fx-dynamic-after-00.png": "a9340db3b15abb22b2cfae21f4ade346a815eb3b5feb604e65d7ad978a04a760",
+    "screenshots/series-fx-dynamic-after-01.png": "ef2663ebb091b235f31b33606722dfd017d8bfb45390e41ed1a325cc2806c1e2",
+    "screenshots/series-fx-dynamic-after-02.png": "61a51792318b2134982bf79bf3edaa43033cda2bad2f9351f47f1acdce7c58c3",
+    "screenshots/series-fx-dynamic-after-03.png": "edb274cd35b76542086d36d249c5be50afcd75d8e09b25f6057c596d4164a608",
+    "screenshots/series-fx-dynamic-after-04.png": "fd6286696bf1fdc5e10c312f19b91e3f85010e384be37bf5dc403027fdfa25b6",
+    "screenshots/series-fx-dynamic-after-05.png": "9e6ff2dd759f81b9b00cffbf5cef77de32abb02a6647260c1ec496fcbde1b57b",
+    "screenshots/series-fx-dynamic-after-06.png": "81597a74eb4b95ff76c60a243bd2de335e8f3ee1cd8c2720ae522518ddfa5e4e",
+    "screenshots/series-fx-dynamic-after-07.png": "ca67865c919424540eb1fc63597334956c86dfafa973585075c612c08d3ab87d",
+    "screenshots/series-fx-dynamic-after-08.png": "6f57a387673dc24404048c5bdfdc2e73cd5fbfa4b2df4c79b241c5d652a0f193",
+    "screenshots/series-fx-dynamic-after-09.png": "dae1997e5495bebb60541664517ee3a762c0190cd204b1e319d0858450b9e3d1",
+    "screenshots/series-fx-dynamic-after-10.png": "cc13a31936cd963641e9fc8728d67c78b1be8f76b5a629d9adcde0b70b031498",
+    "screenshots/series-fx-dynamic-after-11.png": "4a0d7880df6a2d295ac51b4b7a869788d69ad1bf1bef6d9a5a5f627f28e9f7bc",
+    "screenshots/series-fx-dynamic-before-00.png": "16bc2966ec34a8e493f7b749dafc8bda61453ba4d2071e461554f8a37d4f87b2",
+    "screenshots/series-fx-dynamic-before-01.png": "b4620599506163ec3232c8db4a0f6acfc6ca54ac5219a738116c1ccf5660caeb",
+    "screenshots/series-fx-dynamic-before-02.png": "85c298bc6beab1831bc15e284085d1c1939f0979f5837605bda482c9cd89f0f7",
+    "screenshots/series-fx-dynamic-before-03.png": "ba17f5eeccb63152ee5c9ab8ebd92a744585f4f98dab1c8934c5aeac56f4a113",
+    "screenshots/series-fx-dynamic-before-04.png": "5ed40b9acf6463322e4a424ae00a3c64ce51aa1b39d7103adc396003b02840cf",
+    "screenshots/series-fx-dynamic-before-05.png": "33dae9a6e1c17e52b5241cad2558ac0da7f9307d8fe4ba32f5c6d2e5d154dc2e",
+    "screenshots/series-fx-dynamic-before-06.png": "c7aaea147b53a81137f475d850a3cad74eb21430666b3847912552ddafb9accb",
+    "screenshots/series-fx-dynamic-before-07.png": "359b41cc5c253a2b289975002dbe43d3b1762c5ee58d0a26146248f889d45b7a",
+    "screenshots/series-fx-dynamic-before-08.png": "d0580f58805b70832d42adff3dade7407a48d3e10938ba076e2a49a6df309d2a",
+    "screenshots/series-fx-dynamic-before-09.png": "cadb394671d28e6a5c912809c2d13441de1514d981fd39390c95140239496265",
+    "screenshots/series-fx-dynamic-before-10.png": "4cee8ce2bf7d784d8dbae410ea78f236a012b683e0b072e460a8599a6fa4eec9",
+    "screenshots/series-fx-dynamic-before-11.png": "027bfb3b5f21d557a9d5eb66cb9de73420c8324f4882611705d5c3eed4ca3882"
+  }
+}

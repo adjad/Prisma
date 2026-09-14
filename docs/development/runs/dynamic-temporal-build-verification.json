@@ -1,0 +1,24 @@
+{
+  "rendererSha256": "1e1033019b92e8beec18629f5267b1a315989bb47f85281574822b6676ff91c2",
+  "installedSha256": "1e1033019b92e8beec18629f5267b1a315989bb47f85281574822b6676ff91c2",
+  "installedMatchesBuild": true,
+  "shaderMatchesSource": true,
+  "nativeLibraryMatchesBuild": true,
+  "nativeTemporalProof": {
+    "passed": true,
+    "aoVarianceRatio": 0.01967884,
+    "reflectionVarianceRatio": 0.02009019,
+    "historyLength": 32,
+    "onePixelReprojection": true,
+    "historyRejectionCasesPassed": 5,
+    "oddFramebufferSize": true,
+    "dynamicVarianceRatio": 0.08476789,
+    "movingShadowMaxError": 0.0,
+    "removedReflectionMaxError": 0.0,
+    "minecraftIntegration": false
+  },
+  "liveNoiseEvidence": "dynamic-temporal-live-noise.json",
+  "livePerformanceEvidence": "dynamic-temporal-performance.json",
+  "defaultEnabled": false,
+  "currentSessionEnabled": true
+}

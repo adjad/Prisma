@@ -1,0 +1,1 @@
+2026-09-14 10:02:36.018 edge-frame-proof[82734:7165300] Metal API Validation Enabled

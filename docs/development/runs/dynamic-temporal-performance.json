@@ -1,0 +1,16 @@
+{
+  "metric": "CPU frame loop, not presentation interval",
+  "fpsRange": [
+    59.33473179502547,
+    59.68659546860964
+  ],
+  "p95MsRange": [
+    17.078954399999997,
+    17.6767317
+  ],
+  "maximumMs": 27.31275,
+  "passes": 3,
+  "motionStart": "dynamic-temporal-profile-motion-start.txt",
+  "motionEnd": "dynamic-temporal-profile-motion-complete.txt",
+  "rawResults": "dynamic-temporal-moving-cap60-results.json"
+}

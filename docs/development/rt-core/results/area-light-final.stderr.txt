@@ -1,0 +1,1 @@
+2026-09-14 09:03:27.486 area-light-proof[80810:7120748] Metal API Validation Enabled

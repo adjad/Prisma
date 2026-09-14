@@ -1,0 +1,44 @@
+[
+  {
+    "archive": "2026-09-14_04_05_01-New World-26_2.zip",
+    "metric": "Minecraft client profiler ticktime (CPU-side frame loop; not presented interval)",
+    "frames": 1200,
+    "duration_ms": 10004,
+    "profile_ticks": 1200,
+    "render_loop_fps": 119.95201919232306,
+    "frame_loop_mean_ms": 8.295099336666667,
+    "frame_loop_p95_ms": 9.1133774,
+    "frame_loop_p99_ms": 9.44600417,
+    "frame_loop_max_ms": 17.465834,
+    "heap_mib_min": 495.1180114746094,
+    "heap_mib_max": 1421.3092041015625
+  },
+  {
+    "archive": "2026-09-14_04_05_14-New World-26_2.zip",
+    "metric": "Minecraft client profiler ticktime (CPU-side frame loop; not presented interval)",
+    "frames": 1200,
+    "duration_ms": 10001,
+    "profile_ticks": 1200,
+    "render_loop_fps": 119.98800119988002,
+    "frame_loop_mean_ms": 8.300640351666667,
+    "frame_loop_p95_ms": 9.1102205,
+    "frame_loop_p99_ms": 9.30946949,
+    "frame_loop_max_ms": 9.484583,
+    "heap_mib_min": 494.5415954589844,
+    "heap_mib_max": 1410.301513671875
+  },
+  {
+    "archive": "2026-09-14_04_05_28-New World-26_2.zip",
+    "metric": "Minecraft client profiler ticktime (CPU-side frame loop; not presented interval)",
+    "frames": 1200,
+    "duration_ms": 10001,
+    "profile_ticks": 1200,
+    "render_loop_fps": 119.98800119988002,
+    "frame_loop_mean_ms": 8.3055477475,
+    "frame_loop_p95_ms": 9.02318925,
+    "frame_loop_p99_ms": 9.28526217,
+    "frame_loop_max_ms": 9.640292,
+    "heap_mib_min": 605.6910400390625,
+    "heap_mib_max": 1199.6666259765625
+  }
+]

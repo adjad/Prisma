@@ -1,0 +1,28 @@
+{
+  "contact": [
+    1040,
+    585,
+    1120,
+    635
+  ],
+  "pillar_shadow": [
+    840,
+    390,
+    920,
+    450
+  ],
+  "floor_reflection": [
+    760,
+    720,
+    940,
+    850
+  ],
+  "gold_face": [
+    1000,
+    230,
+    1060,
+    310
+  ],
+  "selectedFrom": "capture-dynamic-temporal-fixture.png",
+  "scope": "Fixed pillar/floor regions selected before calculating before/after variance; all effects enabled"
+}

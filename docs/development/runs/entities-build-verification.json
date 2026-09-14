@@ -1,0 +1,26 @@
+{
+  "rendererSha256": "2c2c473873ce374af9a0bc0113e31010e1cf61980e7a01afbdd476a551ee22dc",
+  "installedSha256": "2c2c473873ce374af9a0bc0113e31010e1cf61980e7a01afbdd476a551ee22dc",
+  "installedMatchesBuild": true,
+  "shaderMatchesSource": true,
+  "nativeLibraryMatchesBuild": true,
+  "dynamicNativeProof": {
+    "passed": true,
+    "redIndirectEnergy": 11251.0,
+    "movedRedEnergy": 33142.0,
+    "lightCentroidShiftPixels": 2.8176,
+    "staticBlasUnchanged": true,
+    "invalidUpdatePreservedDynamicScene": true,
+    "removalRestoredBaseline": true,
+    "unchangedMeshSkipped": true,
+    "dynamicUpdates": 3,
+    "completedDynamicFrames": 3,
+    "alphaErrors": 0
+  },
+  "liveEvidence": [
+    "entities-inspect-offscreen-1789393839019.txt",
+    "entities-inspect-moved-1789394004463.txt",
+    "entities-inspect-removed-1789394024190.txt"
+  ],
+  "preservation": "original-preserved-entities.json"
+}

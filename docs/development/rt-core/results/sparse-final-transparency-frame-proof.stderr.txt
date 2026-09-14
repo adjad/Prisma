@@ -1,0 +1,1 @@
+2026-09-14 10:02:35.236 transparency-frame-proof[82730:7165264] Metal API Validation Enabled

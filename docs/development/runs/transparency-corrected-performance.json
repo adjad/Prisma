@@ -1,0 +1,17 @@
+{
+  "glass": {
+    "rendererCommandBufferGpuMeanMs": 7.773796770096627,
+    "completedFrames": 4286,
+    "start": "statistics-glass-corrected-start-1789388072158.txt",
+    "end": "statistics-glass-corrected-end-1789388144925.txt",
+    "cpuProfiles": "glass-corrected-cap60-results.json"
+  },
+  "water": {
+    "rendererCommandBufferGpuMeanMs": 7.592376010455057,
+    "completedFrames": 6514,
+    "start": "statistics-water-corrected-start-1789388170599.txt",
+    "end": "statistics-water-corrected-end-1789388281210.txt",
+    "cpuProfiles": "water-corrected-cap60-results.json"
+  },
+  "limits": "GPU mean covers the renderer command buffer in the surrounding interval, not isolated RT or presentation; CPU profiles are three ten-second frame-loop samples per scene. No final sustained acceptance."
+}

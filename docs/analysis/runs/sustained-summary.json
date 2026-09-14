@@ -1,0 +1,30 @@
+{
+  "samples": 121,
+  "elapsed_s": 1200.005,
+  "rss_mib_min": 2670.734375,
+  "rss_mib_max": 2990.90625,
+  "rss_mib_end": 2936.96875,
+  "swap_mib_start": 2707.5,
+  "swap_mib_end": 2611.5,
+  "swap_mib_change": -96.0,
+  "reported_memory_free_percentage_range": [
+    74,
+    80
+  ],
+  "all_power_samples_ac": true,
+  "first_power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=36307043)\t36%; charging; 2:42 remaining present: true",
+  "last_power": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=36307043)\t60%; charging; 1:24 remaining present: true",
+  "capped_profile_count": 6,
+  "capped_fps_range": [
+    59.57021489255372,
+    59.97001499250375
+  ],
+  "capped_p95_ms_range": [
+    16.67811105,
+    17.48759325
+  ],
+  "heap_mib_range_in_capped_profiles": [
+    586.068359375,
+    1665.10791015625
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "archive": "2026-09-14_12_42_59-New World-26_2.zip",
+    "metric": "Minecraft client profiler ticktime (CPU-side frame loop; not presented interval)",
+    "frames": 593,
+    "duration_ms": 10012,
+    "profile_ticks": 593,
+    "render_loop_fps": 59.228925289652416,
+    "frame_loop_mean_ms": 16.8665087386172,
+    "frame_loop_p95_ms": 16.7457748,
+    "frame_loop_p99_ms": 20.270135000000423,
+    "frame_loop_max_ms": 40.835,
+    "heap_mib_min": 882.644287109375,
+    "heap_mib_max": 1558.6951904296875
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "time": "2026-09-14T16:32:20.155044+00:00",
+  "rendererSha256": "3429f65d45f9e99b340944e52941a953dd5ee9b8c1ebdb164c4e07236903188f",
+  "installedSha256": "3429f65d45f9e99b340944e52941a953dd5ee9b8c1ebdb164c4e07236903188f",
+  "installedMatchesBuild": true,
+  "packagedNativeAssetMatches": {
+    "assets/metallum/rt/trace.metal": true,
+    "native/macos-aarch64/librtcore.dylib": true
+  },
+  "nativeFrameProof": {
+    "passed": true,
+    "queuedLightsSurviveContextDestruction": true,
+    "directWorksWithGiAndReflectionDisabled": true,
+    "staticResourceAddressesUnchanged": true,
+    "rgbDirectEnergy": [
+      174955.0,
+      175009.0,
+      174858.0
+    ],
+    "alphaErrors": 0,
+    "removalErrors": 0
+  },
+  "samplingProof": {
+    "passed": true,
+    "retainedLights": 128,
+    "cpuReference": 1.240785071,
+    "uniformMean": 1.235894291,
+    "importanceMean": 1.240964873,
+    "uniformVariance": 1.701528658,
+    "importanceVariance": 0.000114023,
+    "varianceRatio": 6.7012e-05
+  },
+  "javaBridgeProof": {
+    "passed": true,
+    "irradianceRGB": [
+      0.24498402,
+      0.12249201,
+      0.061246
+    ],
+    "packedBytes": 80,
+    "unchangedPublication": true,
+    "invalidPublicationPreserved": true,
+    "removal": true,
+    "historyLightIdentityGuard": true
+  },
+  "emitterProof": {
+    "passed": true,
+    "bakedRectangleGeometryAndRebase": true,
+    "emissionUsesLinearSpriteColor": true,
+    "unsupportedGeometryReported": true
+  },
+  "livePerformance": "runs/local-light-all-effects-results.json",
+  "liveBlockerAndSourceReadbacks": [
+    "runs/local-light-probe-blocked-1789403286542.txt",
+    "runs/local-light-probe-lamp-removed-1789403336732.txt",
+    "runs/local-light-probe-unblocked-1789403306366.txt"
+  ],
+  "sessionControls": {
+    "samples": 3,
+    "dynamicTemporal": true,
+    "metalfx": false,
+    "localLights": true,
+    "frameCap": 60,
+    "sessionOnly": true
+  },
+  "sourceFilesHashed": 200,
+  "fullAcceptanceComplete": false
+}

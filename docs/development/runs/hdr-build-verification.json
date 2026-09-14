@@ -1,0 +1,104 @@
+{
+  "time": "2026-09-14T18:50:38.964128+00:00",
+  "rendererSha256": "bd5cf581efd588ec866008fe366678dd22654aa2259a12ad29fc376334f7d57c",
+  "installedMatchesBuild": true,
+  "packagedAssetHashes": {
+    "assets/metallum/rt/trace.metal": "a55824c75123835a1bf80b157c34cdb9fc62593987d454d67dacdc60ecdafdd9",
+    "native/macos-aarch64/librtcore.dylib": "cb8abe6ec5d89822c607149282f960b7ea20fb33894f25c2482f33057b821643"
+  },
+  "nativeProof": {
+    "passed": true,
+    "failures": 0,
+    "rawLinear": 100.00001526,
+    "mappedLinear": 0.99009907,
+    "minusOneEv": 0.98039216,
+    "partialCoverage": 0.50781258,
+    "partialMapped": 0.84731589,
+    "fxRawLinear": 100.24731445,
+    "fxMappedLinear": 0.99017477,
+    "fxMinusOneEv": 0.98055572,
+    "fxCompletedFrames": 14,
+    "extremeLinear": 7750547.5,
+    "extremeMapped": 0.99996698
+  },
+  "metalApiAndShaderValidation": true,
+  "gpuRegressions": [
+    {
+      "test": "frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "temporal-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transparency-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "metalfx-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "dynamic-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-gi-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "edge-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "chunk-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "area-light-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "local-transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "physical-lighting-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "direct-specular-proof",
+      "exitCode": 0
+    }
+  ],
+  "settingsChecks": 40,
+  "clientCommandChecks": 14,
+  "liveImages": "runs/hdr-live-images.json",
+  "liveProfiles": [
+    "runs/hdr-before-uncapped-results.json",
+    "runs/hdr-after-uncapped-accepted.json",
+    "runs/hdr-final-cap60-results.json"
+  ],
+  "finalState": "runs/client-controls-status-1789411963659.txt",
+  "originalPreservation": "runs/original-preserved-hdr.json",
+  "sourceFilesHashed": 225,
+  "fullAcceptanceComplete": false,
+  "remainingQualityLimits": [
+    "primary texture detail",
+    "secondary specular chains",
+    "lamp-driven GI quality",
+    "MetalFX history resets on every posed-entity update and visible boundary artifacts",
+    "water/glass and moving-scene acceptance",
+    "full sustained presentation/performance acceptance"
+  ],
+  "liveImageAcceptance": "Both final image modes use cap60; earlier mixed-cap pair is retained but excluded."
+}

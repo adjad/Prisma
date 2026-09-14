@@ -1,0 +1,1 @@
+historyTransfer=1, changedSceneRejected=1, statisticsRead=1

@@ -1,0 +1,1 @@
+2026-09-14 09:22:57.480 light-sampling-proof[81486:7136243] Metal API Validation Enabled

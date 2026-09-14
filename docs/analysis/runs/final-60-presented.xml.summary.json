@@ -1,0 +1,13 @@
+{
+  "source": "analysis/runs/final-60-presented.xml",
+  "pid": "67183",
+  "process_rows": {
+    "java (67183)": 609
+  },
+  "callbacks": 609,
+  "seconds": 10.214774333,
+  "callback_rate": 59.52162820041812,
+  "callback_interval_p95_ms": 19.3376818,
+  "callback_interval_p99_ms": 33.16665142999993,
+  "limitation": "Callback arrival timestamps are not validated display scanout times. Do not label callback rate as displayed FPS. Requested-time values in this Xcode/macOS combination are inconsistent."
+}

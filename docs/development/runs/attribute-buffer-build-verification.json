@@ -1,0 +1,160 @@
+{
+  "time": "2026-09-14T15:51:59.391791+00:00",
+  "rendererSha256": "ca8f2caf1d35e00302f2c405faaa6eeacace45f9b8a647eb95bcbe463887ea59",
+  "installedSha256": "ca8f2caf1d35e00302f2c405faaa6eeacace45f9b8a647eb95bcbe463887ea59",
+  "installedMatchesBuild": true,
+  "packagedNativeAssetMatches": {
+    "assets/metallum/rt/trace.metal": true,
+    "native/macos-aarch64/librtcore.dylib": true
+  },
+  "nativeTests": {
+    "attribute-ownership-final.json": {
+      "passed": true,
+      "queuedFramesSurviveContextDestruction": true,
+      "staticResourceAddressesUnchanged": true,
+      "independentPoseResources": true,
+      "unchangedMaterialAllocationReused": true,
+      "dynamicAttributeBytesPerPose": 268,
+      "staticAttributeBytes": 268,
+      "rgbIndirectEnergy": [
+        11251.0,
+        13099.0,
+        17509.0
+      ],
+      "alphaErrors": 0
+    },
+    "attribute-ownership-shader-final.json": {
+      "passed": true,
+      "queuedFramesSurviveContextDestruction": true,
+      "staticResourceAddressesUnchanged": true,
+      "independentPoseResources": true,
+      "unchangedMaterialAllocationReused": true,
+      "dynamicAttributeBytesPerPose": 268,
+      "staticAttributeBytes": 268,
+      "rgbIndirectEnergy": [
+        11251.0,
+        13099.0,
+        17509.0
+      ],
+      "alphaErrors": 0
+    },
+    "attribute-dynamic-final.json": {
+      "passed": true,
+      "redIndirectEnergy": 11251.0,
+      "movedRedEnergy": 33142.0,
+      "lightCentroidShiftPixels": 2.8176,
+      "staticBlasUnchanged": true,
+      "invalidUpdatePreservedDynamicScene": true,
+      "removalRestoredBaseline": true,
+      "unchangedMeshSkipped": true,
+      "dynamicUpdates": 3,
+      "completedDynamicFrames": 3,
+      "alphaErrors": 0
+    },
+    "attribute-chunk-final.json": {
+      "passed": true,
+      "initialChunks": 3,
+      "unchangedBlasReused": 3,
+      "editedBlasBuilt": 1,
+      "editedSceneBlasReused": 2,
+      "retainedCacheAfterContextDestruction": true,
+      "changedTransformRejectsHistory": true,
+      "farGeometryOffsetBlocks": 128,
+      "longRayHitDistanceBlocks": 128.015625,
+      "materialOnlyEditReusesGeometry": true,
+      "invalidUpdatePreservesScene": true,
+      "chunkRemoval": true,
+      "emptyScene": true,
+      "dynamicReflectionWithEmptyStaticScene": true,
+      "dynamicCenterRGBA": [
+        255,
+        0,
+        0,
+        128
+      ]
+    },
+    "attribute-metalfx-final.json": {
+      "passed": true,
+      "denoiserExecuted": true,
+      "encodedFrames": 49,
+      "completedFrames": 49,
+      "historyResets": 2,
+      "rawVariance": 0.001575685,
+      "denoisedVariance": 0.000116661,
+      "varianceReductionPercent": 92.596,
+      "rawMean": 0.842115,
+      "denoisedMean": 0.844418,
+      "resetMean": 1.0,
+      "rawCommandGpuMs": 0.1914,
+      "denoisedCommandGpuMs": 0.7083,
+      "alphaErrors": 0,
+      "bypassErrors": 0,
+      "invalidMatrixRejected": true
+    }
+  },
+  "bindingRegressionSuite": [
+    {
+      "test": "rt-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "visibility-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transparency-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "metalfx-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "dynamic-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-gi-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "edge-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "chunk-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "temporal-proof",
+      "exitCode": 0
+    }
+  ],
+  "performanceResults": [
+    "attributes-before-uncapped-results.json",
+    "attributes-after-uncapped-results.json",
+    "attributes-terrain-four-results.json",
+    "attributes-terrain-three-results.json"
+  ],
+  "sessionControls": {
+    "samples": 3,
+    "dynamicTemporal": true,
+    "metalfx": false,
+    "frameCap": 60,
+    "sessionOnly": true
+  },
+  "sourceFilesHashed": 185,
+  "fullAcceptanceComplete": false
+}

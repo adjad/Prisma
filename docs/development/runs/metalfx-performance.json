@@ -1,0 +1,72 @@
+{
+  "metric": "CPU frame-loop timing from Minecraft profiler; renderer command-buffer GPU intervals are not presentation or isolated RT timings.",
+  "runs": {
+    "glass": {
+      "profile": "glass-metalfx-optimized-cap60-results.json",
+      "fps_min": 59.894010598940106,
+      "fps_max": 59.94604855629933,
+      "p95_min_ms": 16.67062675,
+      "p95_max_ms": 16.7874911,
+      "mean_gpu_interval_ms": 14.279030411349813,
+      "gpu_counter_start": {
+        "file": "statistics-glass-fx-optimized-start-1789391209141.txt",
+        "completed": 10458,
+        "gpu_mean": 15.955963130185598,
+        "gpu_last": 14.481874997727573
+      },
+      "gpu_counter_end": {
+        "file": "statistics-glass-fx-optimized-end-1789391317013.txt",
+        "completed": 16855,
+        "gpu_mean": 15.319514681512059,
+        "gpu_last": 14.679541636724025
+      }
+    },
+    "water": {
+      "profile": "water-metalfx-optimized-cap60-results.json",
+      "fps_min": 59.622490762009384,
+      "fps_max": 59.894010598940106,
+      "p95_min_ms": 16.815758,
+      "p95_max_ms": 17.441866599999997,
+      "mean_gpu_interval_ms": 11.910731297959739,
+      "gpu_counter_start": {
+        "file": "statistics-water-fx-optimized-start-1789391369114.txt",
+        "completed": 1427,
+        "gpu_mean": 11.822392519104302,
+        "gpu_last": 12.002416653558612
+      },
+      "gpu_counter_end": {
+        "file": "statistics-water-fx-optimized-end-1789391444685.txt",
+        "completed": 5865,
+        "gpu_mean": 11.889237787742056,
+        "gpu_last": 11.944750032853335
+      }
+    },
+    "water_full": {
+      "profile": "water-metalfx-full-cap60-results.json",
+      "fps_min": 59.846138475372165,
+      "fps_max": 59.95203836930455,
+      "p95_min_ms": 16.7145351,
+      "p95_max_ms": 16.9242545,
+      "mean_gpu_interval_ms": 14.990520362105025,
+      "gpu_counter_start": {
+        "file": "statistics-water-fx-full-1789391511200.txt",
+        "completed": 9839,
+        "gpu_mean": 12.399991132231985
+      },
+      "gpu_counter_end": {
+        "file": "statistics-water-fx-full-end-1789391661129.txt",
+        "completed": 18769,
+        "gpu_mean": 13.632524885909126
+      }
+    }
+  },
+  "context": {
+    "output": "1920x1200 actual Metal target; logical window 960x600",
+    "ac_power": true,
+    "java_heap": "4 GiB",
+    "process_rss_snapshot_kib": 2499856,
+    "system_swap_snapshot_mib": 2123.12,
+    "memory_note": "Single-point system swap snapshot, not measured growth or process attribution.",
+    "mod_jar_sha256_during_profiles": "6e1e3993b3ce40cdafa460a9159e183c0eb3202d79e4b5105c16b21b4cb5e53a"
+  }
+}

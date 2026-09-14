@@ -1,0 +1,2 @@
+2026-09-14 10:01:08.857 dynamic-frame-proof[82557:7163213] Metal API Validation Enabled
+validateComputeFunctionArguments:1070: failed assertion `Compute Function(frame_visibility): argument lights[0] from Buffer(3) with offset(0) and length(72) has space for 72 bytes, but argument has a length(80).'

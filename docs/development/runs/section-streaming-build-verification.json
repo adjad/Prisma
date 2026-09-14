@@ -1,0 +1,81 @@
+{
+  "time": "2026-09-14T15:16:06.538969+00:00",
+  "rendererSha256": "4029b88e64dd5ef9924cac491957a88b34d8240285bd000f4cc0d7c92a82d8ca",
+  "installedSha256": "4029b88e64dd5ef9924cac491957a88b34d8240285bd000f4cc0d7c92a82d8ca",
+  "installedMatchesBuild": true,
+  "packagedNativeAssetMatches": {
+    "assets/metallum/rt/trace.metal": [
+      "development/rt-core/trace.metal"
+    ],
+    "native/macos-aarch64/librtcore.dylib": [
+      "development/rt-core/build/librtcore.dylib"
+    ]
+  },
+  "nativeTests": {
+    "section-samples-one.json": {
+      "passed": true,
+      "changedPixels": 23,
+      "minimumEnabledChannel": 131,
+      "zeroStrengthErrors": 0,
+      "alphaErrors": 0,
+      "historyTransfer": true,
+      "changedSceneRejected": true,
+      "statisticsRead": true
+    },
+    "section-samples-two.json": {
+      "passed": true,
+      "changedPixels": 44,
+      "minimumEnabledChannel": 131,
+      "zeroStrengthErrors": 0,
+      "alphaErrors": 0,
+      "historyTransfer": true,
+      "changedSceneRejected": true,
+      "statisticsRead": true
+    },
+    "section-horizontal-coverage-final.json": {
+      "passed": true,
+      "changedPixels": 89,
+      "minimumEnabledChannel": 168,
+      "zeroStrengthErrors": 0,
+      "alphaErrors": 0,
+      "historyTransfer": true,
+      "changedSceneRejected": true,
+      "statisticsRead": true
+    },
+    "section-chunk-regression.json": {
+      "passed": true,
+      "initialChunks": 3,
+      "unchangedBlasReused": 3,
+      "editedBlasBuilt": 1,
+      "editedSceneBlasReused": 2,
+      "retainedCacheAfterContextDestruction": true,
+      "changedTransformRejectsHistory": true,
+      "farGeometryOffsetBlocks": 128,
+      "longRayHitDistanceBlocks": 128.015625,
+      "materialOnlyEditReusesGeometry": true,
+      "invalidUpdatePreservesScene": true,
+      "chunkRemoval": true,
+      "emptyScene": true,
+      "dynamicReflectionWithEmptyStaticScene": true,
+      "dynamicCenterRGBA": [
+        255,
+        0,
+        0,
+        128
+      ]
+    }
+  },
+  "payloadOwnershipTest": {
+    "passed": true,
+    "immutableInputsAndAccessors": true,
+    "sharedRebase": true,
+    "geometryMaterialTextureAndIdentityEditsDetected": true
+  },
+  "terrainPerformance": "section-terrain-two-samples-results.json",
+  "sessionControls": {
+    "samples": 2,
+    "dynamicTemporal": true,
+    "metalfx": false,
+    "sessionOnly": true
+  }
+}

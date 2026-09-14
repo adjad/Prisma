@@ -1,0 +1,11 @@
+{
+  "intervalCompletedFrames": 6835,
+  "wholeCommandBufferMeanGpuMs": 4.92642509738929,
+  "measurementScope": "GPU command buffers containing raster and RT; not isolated ray tracing GPU time",
+  "startFile": "entities-inspect-motion-start-1789394418137.txt",
+  "endFile": "entities-inspect-motion-active-1789394476020.txt",
+  "currentPower": "AC attached",
+  "currentProcessRssKiB": 2603280,
+  "currentSystemSwapUsedMiB": 2107.12,
+  "memoryScope": "Single post-motion snapshot; not a swap-growth or peak unified-memory measurement"
+}

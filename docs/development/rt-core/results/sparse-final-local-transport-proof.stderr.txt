@@ -1,0 +1,1 @@
+2026-09-14 10:02:36.303 local-transport-proof[82737:7165326] Metal API Validation Enabled

@@ -1,0 +1,4 @@
+2026-09-14 12:06:56.527 metalfx-shadow-proof[87664:7265443] Metal API Validation Enabled
+2026-09-14 12:06:56.527 metalfx-shadow-proof[87664:7265443] Metal GPU Validation Enabled
+2026-09-14 12:06:58.718 metalfx-shadow-proof[87664:7265443] [MetalFX] UBFNet fused-MXU path ACTIVE (Metal3; NHWC-native)
+2026-09-14 12:06:58.741 metalfx-shadow-proof[87664:7265443] [MetalFX] dBFNet fused-MXU path ACTIVE (Metal3; NHWC-native)

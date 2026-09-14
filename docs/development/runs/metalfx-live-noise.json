@@ -1,0 +1,251 @@
+{
+  "method": "Twelve unmodified 1920x1200 game screenshots per mode, 200 ms requested spacing; temporal variance in RGB8 channel units, not calibrated radiometry. Baseline uses custom temporal filtering, MetalFX uses fewer lighting samples and endpoint guides.",
+  "scenes": {
+    "water": {
+      "before": "series-water-fx-off",
+      "after": "series-water-fx-optimized",
+      "regions": {
+        "floor": {
+          "box": [
+            750,
+            680,
+            1200,
+            765
+          ],
+          "before_variance": 0.06963719427585602,
+          "after_variance": 0.3843071460723877,
+          "variance_reduction_percent": -451.87051986905107,
+          "before_mean_rgb": [
+            135.7197265625,
+            141.30853271484375,
+            158.5808868408203
+          ],
+          "after_mean_rgb": [
+            135.87550354003906,
+            142.44215393066406,
+            159.24026489257812
+          ],
+          "mean_rgb_delta": [
+            0.1557769775390625,
+            1.1336212158203125,
+            0.6593780517578125
+          ]
+        },
+        "wall": {
+          "box": [
+            540,
+            320,
+            570,
+            350
+          ],
+          "before_variance": 0.6967592835426331,
+          "after_variance": 23.125415802001953,
+          "variance_reduction_percent": -3218.996437969522,
+          "before_mean_rgb": [
+            95.90240478515625,
+            103.6058349609375,
+            115.39342498779297
+          ],
+          "after_mean_rgb": [
+            96.09185028076172,
+            103.7683334350586,
+            115.35203552246094
+          ],
+          "mean_rgb_delta": [
+            0.18944549560546875,
+            0.16249847412109375,
+            -0.04138946533203125
+          ]
+        },
+        "hand": {
+          "box": [
+            1510,
+            940,
+            1610,
+            1030
+          ],
+          "before_variance": 0.0,
+          "after_variance": 0.0,
+          "variance_reduction_percent": null,
+          "before_mean_rgb": [
+            44.53822326660156,
+            44.471553802490234,
+            44.43288803100586
+          ],
+          "after_mean_rgb": [
+            44.53822326660156,
+            44.471553802490234,
+            44.43288803100586
+          ],
+          "mean_rgb_delta": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "sha256": {
+        "series-water-fx-off-00.png": "0a6c00cb9dbb8af5e290838a1f23416c1369f55ade0073807c9c3198e26147b2",
+        "series-water-fx-off-01.png": "c818183a1c6a937d82ef59070ed2ecc31a21b0de09d9b4b6462f30854ee4aa23",
+        "series-water-fx-off-02.png": "378b10100f46f65f4574a1089135a7e219917059c40d55d7de9b178538634cd1",
+        "series-water-fx-off-03.png": "da72eabeb0e5699929101d0e98b6361fdeeb7c0b3ce54ff0f1afde69910a38d0",
+        "series-water-fx-off-04.png": "4b1c2131a869ac45c0ffc3c643f938d21c2d7690152152160e3971f3e7e54a79",
+        "series-water-fx-off-05.png": "954805b681ec74c325cd2689e0cc042bf1e795a1ba063030820b67d864be37aa",
+        "series-water-fx-off-06.png": "e3c1cbc0340dbedf634463ec0da225b3da6ccfc37dcd351ac30af983cc2b8283",
+        "series-water-fx-off-07.png": "28aac9e7f579ee7f6f424588538e3ed46783f930df0817b4bda38096ffbcc59e",
+        "series-water-fx-off-08.png": "d0e88dde2076a80090bff364d622b1eca6846eb08d389e9c39bb0f46dff85cd7",
+        "series-water-fx-off-09.png": "745c435454566a77fe269c116b3d3ed9e4e8d109849c593c36548859db3302af",
+        "series-water-fx-off-10.png": "98096be51331d50b8473b2841a59e784b8a60ca0770ddce52a2589bfde818c1c",
+        "series-water-fx-off-11.png": "f4c8fb1e961f81a39afd855c0ad749d724d0d73f7a7a446880460a5781e27f2b",
+        "series-water-fx-optimized-00.png": "259c50497da1054dfddfc3b6ae63ff1a161e7f6bfc40f2ea69a93cac551fcfc0",
+        "series-water-fx-optimized-01.png": "b41fd2b6a96a90d2c664d08966648551e1f6b3d9ef99847d834247c2128d04fc",
+        "series-water-fx-optimized-02.png": "89b5b89b9670e985aba2d853f4faf801a000c619b92bfe9be419ec31d4220b0d",
+        "series-water-fx-optimized-03.png": "2f849073d12d55222678e1f1e06629568b5993fac60a12259fad8d72fee12ca6",
+        "series-water-fx-optimized-04.png": "4b8d1e9fac9d6a470d52155ce97b7eeaa77aae615dbff83f449031020f794c2c",
+        "series-water-fx-optimized-05.png": "e90b2bde9f6de64edbeb8b9f0fe8bcd6f515426a7305fc676318af0e39c03bf0",
+        "series-water-fx-optimized-06.png": "2f98953fde0f52ce74b5d4a01d8130dc2c0b56ac4787561650ed69f7bd260fdc",
+        "series-water-fx-optimized-07.png": "2d2203567baa4f08d31fa748ac5500bfdba462bb7536187c57e915c6eeca092b",
+        "series-water-fx-optimized-08.png": "08560a9cef66aec9afd30b517771d9fbded0e6970852fc82c0a6ac128d1cdda4",
+        "series-water-fx-optimized-09.png": "5f45c19f05c019cabb7d1f5bec5897ee63f384172dd0f35ac7f5d4b7c9820348",
+        "series-water-fx-optimized-10.png": "0c8d0d32b391b6077f87b2fb869f474dab7fecb23f3656cbf0e886cdfb956edf",
+        "series-water-fx-optimized-11.png": "cb0cd77e3f8abec97bc8d083d4f36b91dabc7ed743693927cc4745ec353ec1b3"
+      }
+    },
+    "glass": {
+      "before": "series-glass-fx-off",
+      "after": "series-glass-fx-on",
+      "regions": {
+        "blue_wall": {
+          "box": [
+            300,
+            300,
+            700,
+            600
+          ],
+          "before_variance": 0.32626572251319885,
+          "after_variance": 0.21468324959278107,
+          "variance_reduction_percent": 34.19987611965698,
+          "before_mean_rgb": [
+            37.3345832824707,
+            41.21602249145508,
+            124.08353424072266
+          ],
+          "after_mean_rgb": [
+            37.57966613769531,
+            41.414268493652344,
+            124.52417755126953
+          ],
+          "mean_rgb_delta": [
+            0.24508285522460938,
+            0.19824600219726562,
+            0.440643310546875
+          ]
+        },
+        "white_wall": {
+          "box": [
+            870,
+            300,
+            1030,
+            520
+          ],
+          "before_variance": 2.1903164386749268,
+          "after_variance": 2.391232967376709,
+          "variance_reduction_percent": -9.172945294759804,
+          "before_mean_rgb": [
+            172.0498504638672,
+            182.04249572753906,
+            185.66542053222656
+          ],
+          "after_mean_rgb": [
+            172.30886840820312,
+            182.4821014404297,
+            186.27235412597656
+          ],
+          "mean_rgb_delta": [
+            0.2590179443359375,
+            0.439605712890625,
+            0.60693359375
+          ]
+        },
+        "boundary": {
+          "box": [
+            820,
+            260,
+            850,
+            430
+          ],
+          "before_variance": 0.46772876381874084,
+          "after_variance": 1.1932011842727661,
+          "variance_reduction_percent": -155.10536801948064,
+          "before_mean_rgb": [
+            153.68295288085938,
+            161.64439392089844,
+            178.12725830078125
+          ],
+          "after_mean_rgb": [
+            154.0729217529297,
+            162.2941436767578,
+            178.8997344970703
+          ],
+          "mean_rgb_delta": [
+            0.3899688720703125,
+            0.649749755859375,
+            0.7724761962890625
+          ]
+        },
+        "hand": {
+          "box": [
+            1510,
+            940,
+            1610,
+            1030
+          ],
+          "before_variance": 0.0,
+          "after_variance": 0.0,
+          "variance_reduction_percent": null,
+          "before_mean_rgb": [
+            45.07266616821289,
+            45.53966522216797,
+            45.500999450683594
+          ],
+          "after_mean_rgb": [
+            45.07266616821289,
+            45.53966522216797,
+            45.500999450683594
+          ],
+          "mean_rgb_delta": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "sha256": {
+        "series-glass-fx-off-00.png": "9a35cfb7073de8dd28bccb3e938bfd07b77dbc7cf2277b1a1d4f398c53b91f78",
+        "series-glass-fx-off-01.png": "9267e2237034c3b5b62444600fd1a479dfd2613a25faadaeb0c78ee6c8c42d36",
+        "series-glass-fx-off-02.png": "0f167d97bd18562a56cc2b1bf01b6b3b94b8a925f82b4b8a24b28d0febe20b53",
+        "series-glass-fx-off-03.png": "6764792c60223ce4975c32c017e3b8d68c5e39608a7dcd5df81f9ec12a4446af",
+        "series-glass-fx-off-04.png": "ffad29f8e79726b1ad3b18f46faa9990970b8b9a437a304598e2da1ff899593c",
+        "series-glass-fx-off-05.png": "c93912f16eee851499379088c60001fb1c84af6b95829c5ddd90e687652a9300",
+        "series-glass-fx-off-06.png": "e25caf2d8dfca5c6fa8c5424b4c6d28813734446b61cd55163faf288c59e036a",
+        "series-glass-fx-off-07.png": "073aedab35550a5807070be6fa5da76d1cec4c349d6a25a79bcb8e015a7a5822",
+        "series-glass-fx-off-08.png": "d49112c7811b419428ff40a6695ecbc5f88e3b5229cec945295734ee85f0dfd0",
+        "series-glass-fx-off-09.png": "d9d10c0a9a6e4ab05ddd0ea1b0e6c4a1edbf343726736dfcb7849218d51fbda8",
+        "series-glass-fx-off-10.png": "4c323dfd6ad7eb3579be73f64e868d9283b35ad5c12d9704ca72455c7b45cff4",
+        "series-glass-fx-off-11.png": "23c2a28a40091d18b8ad99df556d6d7a39fd377c75767762af0811ad5827cf91",
+        "series-glass-fx-on-00.png": "e539e91a710d7df0d3f65e9acee092ab0fd1a2e209ce9d5e30613ed2ee75dc15",
+        "series-glass-fx-on-01.png": "bc114090fa3209831ade3d33ce68e58bd6ff243a813aeedafb877874b66e30f3",
+        "series-glass-fx-on-02.png": "57b5b131ff1d9badfb53e0b4b40ef7d1482bb1d02b0a3f16e48153b8dd65735e",
+        "series-glass-fx-on-03.png": "a129e928c9a59f27db0e0d13d4cb83d8818c54eb62a2b963a0eb5c7a50ea7075",
+        "series-glass-fx-on-04.png": "9f3d7279093667a1d83873ab93541389017d6dccae07d892b4e61978be45ae82",
+        "series-glass-fx-on-05.png": "8d93a523261732605e96eb745e1a8d86dd9aea9092c70293950f54676fbbf6c5",
+        "series-glass-fx-on-06.png": "9728c837491ce5458431be10853cc3a881c7e6e6a769a3c9c7cfcf4a3363d1a1",
+        "series-glass-fx-on-07.png": "ce5da64fabfc242a4ee117c8eeec487bc450e3fbdc71c05b1dcb6e36d27ad0e5",
+        "series-glass-fx-on-08.png": "617a5e4fd66e63a5eecabdcbcb9110e33abe4bef20237753ce8416dacf9e011a",
+        "series-glass-fx-on-09.png": "567bdf84065839fc9d97eb60ca96372fa1297d71c375bf800fe84452a8f6b586",
+        "series-glass-fx-on-10.png": "2ae3198969c37abdb28a86091c12c0c83c687f3c1323e41ee59a06e34351c857",
+        "series-glass-fx-on-11.png": "93da9020a00d7e4c6953542c70a5f98d02959a020a2925179f9c84f5b9b38e88"
+      }
+    }
+  }
+}

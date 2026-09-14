@@ -1,0 +1,1 @@
+2026-09-14 10:01:07.859 transport-proof[82552:7163174] Metal API Validation Enabled

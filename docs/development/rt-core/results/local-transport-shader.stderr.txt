@@ -1,0 +1,1 @@
+2026-09-14 09:38:34.092 local-transport-proof[81947:7148435] Metal GPU Validation Enabled

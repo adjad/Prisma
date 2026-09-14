@@ -1,0 +1,42 @@
+{
+  "rendererSha256": "7a49267d624a42ca16731ff4a7adbaf57afa325b4797eef4df68cdde9cdd0b35",
+  "installedSha256": "7a49267d624a42ca16731ff4a7adbaf57afa325b4797eef4df68cdde9cdd0b35",
+  "installedMatchesBuild": true,
+  "packagedNativeAssets": [
+    "assets/metallum/rt/trace.metal",
+    "native/macos-aarch64/librtcore.dylib"
+  ],
+  "nativeChunkProof": {
+    "passed": true,
+    "initialChunks": 3,
+    "unchangedBlasReused": 3,
+    "editedBlasBuilt": 1,
+    "editedSceneBlasReused": 2,
+    "retainedCacheAfterContextDestruction": true,
+    "changedTransformRejectsHistory": true,
+    "farGeometryOffsetBlocks": 128,
+    "longRayHitDistanceBlocks": 128.015625,
+    "materialOnlyEditReusesGeometry": true,
+    "invalidUpdatePreservesScene": true,
+    "chunkRemoval": true,
+    "emptyScene": true,
+    "dynamicReflectionWithEmptyStaticScene": true,
+    "dynamicCenterRGBA": [
+      255,
+      0,
+      0,
+      128
+    ]
+  },
+  "liveCoverageBlocks": 25,
+  "assets/metallum/rt/trace.metal": {
+    "matchesLocalFiles": [
+      "development/rt-core/trace.metal"
+    ]
+  },
+  "native/macos-aarch64/librtcore.dylib": {
+    "matchesLocalFiles": [
+      "development/rt-core/build/librtcore.dylib"
+    ]
+  }
+}

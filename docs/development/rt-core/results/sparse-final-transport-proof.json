@@ -1,0 +1,30 @@
+{
+  "offscreenReflection" : true,
+  "barycentricTextureSampling" : true,
+  "gpuCaptureWritten" : false,
+  "blueWallIndirectRGB" : [
+    0,
+    0,
+    0.30038180947303772
+  ],
+  "mirrorGreen" : 0,
+  "redWallIndirectRGB" : [
+    0.30038180947303772,
+    0,
+    0
+  ],
+  "twoBounceTransport" : true,
+  "twoBounceBlue" : 0.39688402414321899,
+  "invalidMaterialsPreserveScene" : true,
+  "alphaCutoutRejected" : true,
+  "mirrorRed" : 1.0000001192092896,
+  "sharpReflectionRed" : 0.99934929609298706,
+  "sunlitWallColorBleeding" : true,
+  "zeroStrengths" : true,
+  "minecraftIntegration" : false,
+  "failures" : 0,
+  "roughReflectionRed" : 0.049730602651834488,
+  "passed" : true,
+  "roughnessBroadensReflection" : true,
+  "device" : "Apple M5 Pro"
+}

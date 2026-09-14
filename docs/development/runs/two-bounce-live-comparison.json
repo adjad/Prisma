@@ -1,0 +1,25 @@
+{
+  "roi": [
+    650,
+    540,
+    1250,
+    580
+  ],
+  "oneMeanRGB": [
+    189.28237915039062,
+    187.27308654785156,
+    188.3614959716797
+  ],
+  "twoMeanRGB": [
+    190.9788360595703,
+    187.38079833984375,
+    188.471923828125
+  ],
+  "twoMinusOneRGB": [
+    1.696458339691162,
+    0.10770833492279053,
+    0.11041666567325592
+  ],
+  "meanAbsoluteDifference": 1.4097777605056763,
+  "note": "Single settled captures with temporal reconstruction; small differences are not a universal quality metric."
+}

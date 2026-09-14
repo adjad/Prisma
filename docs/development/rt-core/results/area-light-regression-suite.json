@@ -1,0 +1,30 @@
+[
+  {
+    "test": "frame-proof",
+    "exitCode": 0
+  },
+  {
+    "test": "transport-proof",
+    "exitCode": 0
+  },
+  {
+    "test": "chunk-proof",
+    "exitCode": 0
+  },
+  {
+    "test": "attribute-frame-proof",
+    "exitCode": 0
+  },
+  {
+    "test": "temporal-proof",
+    "exitCode": 0
+  },
+  {
+    "test": "transmission-proof",
+    "exitCode": 0
+  },
+  {
+    "test": "metalfx-proof",
+    "exitCode": 0
+  }
+]

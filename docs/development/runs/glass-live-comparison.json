@@ -1,0 +1,17 @@
+{
+  "baseline_blue_white_boundary_x": 830,
+  "refraction_blue_white_boundary_x": 838,
+  "boundary_shift_pixels": 8,
+  "images": [
+    "capture-glass-before.png",
+    "capture-glass-corrected.png"
+  ],
+  "scan_region": [
+    700,
+    580,
+    1000,
+    620
+  ],
+  "minimum_neutral_run": 40,
+  "caveat": "Median strip plus a 40-pixel run excludes the narrow bright glass frame. This is a live image-space boundary check; the native Snell test independently verifies ray direction. Thin-edge artifacts remain."
+}

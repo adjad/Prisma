@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "metallum",
+  "version": "${version}",
+  "name": "Metallum",
+  "description": "This is an PoC Metal backend for Minecraft on macOS",
+  "authors": [
+    "kokodio"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kokodio/metallum",
+    "sources": "https://github.com/kokodio/metallum"
+  },
+  "license": "MIT",
+  "accessWidener": "metallum.accesswidener",
+  "icon": "assets/metallum/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.metallum.Metallum"
+    ],
+    "client": [
+      "com.metallum.rt.RtClientControls"
+    ]
+  },
+  "mixins": [
+    "metallum.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.2-",
+    "java": ">=25",
+    "fabric-command-api-v2": ">=3.1.0",
+    "fabric-api-base": ">=2.0.4"
+  }
+}

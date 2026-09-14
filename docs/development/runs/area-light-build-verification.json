@@ -1,0 +1,53 @@
+{
+  "time": "2026-09-14T16:05:56.640777+00:00",
+  "stage": "area-light-native-and-java-foundation",
+  "candidateJarSha256": "7ca44628dc231b73e9d70c9bdf32c2e76b5b6e9116dcde51fd5100875a1c3c17",
+  "installedRendererSha256": "ca8f2caf1d35e00302f2c405faaa6eeacace45f9b8a647eb95bcbe463887ea59",
+  "installedRendererUnchanged": true,
+  "candidateInstalled": false,
+  "packagedAssetsMatchFinalSource": {
+    "assets/metallum/rt/trace.metal": true,
+    "native/macos-aarch64/librtcore.dylib": true
+  },
+  "nativeProof": {
+    "opaqueVisibility": true,
+    "gpuCaptureWritten": false,
+    "dielectricTransmissionRatio": 0.9411074380683654,
+    "invalidLightsPreserveState": true,
+    "finiteVisibilitySegment": true,
+    "removal": true,
+    "unoccludedRelativeError": 0.00032940548346942894,
+    "multipleLightsSum": true,
+    "cutoutVisibility": true,
+    "radianceColorPreserved": true,
+    "farFieldFalloffRatio": 3.98470615295351,
+    "oneAndTwoSidedEmission": true,
+    "dielectricVisibility": true,
+    "minecraftIntegration": false,
+    "lightChangesPreserveGeometryEpoch": true,
+    "failures": 0,
+    "unchangedPublicationReused": true,
+    "passed": true,
+    "contactHardeningAndEmitterSize": true,
+    "initialGeometryEpoch": 1
+  },
+  "javaBridgeProof": {
+    "passed": true,
+    "irradianceRGB": [
+      0.24498402,
+      0.12249201,
+      0.061246
+    ],
+    "packedBytes": 64,
+    "unchangedPublication": true,
+    "invalidPublicationPreserved": true,
+    "removal": true,
+    "historyLightIdentityGuard": true
+  },
+  "shaderValidationPassed": true,
+  "capture": "rt-core/results/area-lights-20260914.gputrace",
+  "regressionSuite": "rt-core/results/area-light-regression-suite.json",
+  "sourceFilesHashed": 188,
+  "displayedLocalLightingImplemented": false,
+  "fullAcceptanceComplete": false
+}

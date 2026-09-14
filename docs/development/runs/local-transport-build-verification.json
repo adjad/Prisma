@@ -1,0 +1,117 @@
+{
+  "time": "2026-09-14T16:53:56.289165+00:00",
+  "rendererSha256": "ccdeb8e53ffbdedb942fd4acfd2699e66805f7fbb3e02c7561339600880ac18c",
+  "installedSha256": "ccdeb8e53ffbdedb942fd4acfd2699e66805f7fbb3e02c7561339600880ac18c",
+  "installedMatchesBuild": true,
+  "packagedNativeAssetMatches": {
+    "assets/metallum/rt/trace.metal": true,
+    "native/macos-aarch64/librtcore.dylib": true
+  },
+  "nativeTransportProof": {
+    "twoBounceEmissionPartition": true,
+    "passed": true,
+    "redWallIndirect": 0.10587908327579498,
+    "lampLitWallReflection": true,
+    "blueWallIndirect": 0.10587908327579498,
+    "lampRemovalClearsIndirect": true,
+    "partitionedImmediateEmission": 0,
+    "failures": 0,
+    "reflectedRed": 0.15259811282157898,
+    "mirrorEmitterRetained": true,
+    "transmittedLocalLightWithGiOff": 0.03775713965296745,
+    "transmissionLampRemoval": true,
+    "gpuCaptureWritten": true,
+    "irradianceOverPiReference": 0.15391485990615694,
+    "blockedReflection": 0,
+    "unpartitionedBsdfEmission": 0.9299317002296448
+  },
+  "shaderValidationProof": {
+    "twoBounceEmissionPartition": true,
+    "passed": true,
+    "redWallIndirect": 0.10587908327579498,
+    "lampLitWallReflection": true,
+    "blueWallIndirect": 0.10587908327579498,
+    "lampRemovalClearsIndirect": true,
+    "partitionedImmediateEmission": 0,
+    "failures": 0,
+    "reflectedRed": 0.15259811282157898,
+    "mirrorEmitterRetained": true,
+    "transmittedLocalLightWithGiOff": 0.03775713965296745,
+    "transmissionLampRemoval": true,
+    "gpuCaptureWritten": false,
+    "irradianceOverPiReference": 0.15391485990615694,
+    "blockedReflection": 0,
+    "unpartitionedBsdfEmission": 0.9299317002296448
+  },
+  "regressions": [
+    {
+      "test": "frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transparency-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "metalfx-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "dynamic-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-gi-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "edge-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "chunk-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "temporal-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "area-light-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "local-transport-proof",
+      "exitCode": 0
+    }
+  ],
+  "livePerformance": "runs/local-transport-all-effects-results.json",
+  "liveImageMeasurements": [
+    "runs/local-reflection-image-measurement.json",
+    "runs/local-gi-image-measurement.json"
+  ],
+  "liveGiVisualAcceptance": false,
+  "sessionControls": {
+    "samples": 3,
+    "dynamicTemporal": true,
+    "metalfx": false,
+    "localLights": true,
+    "frameCap": 60,
+    "sessionOnly": true,
+    "ao": 0.65,
+    "shadows": 0.65,
+    "reflections": 1,
+    "gi": 1
+  },
+  "sourceFilesHashed": 206,
+  "fixtureRestoreReceipt": "runs/commands-local-transport-restore-complete.txt",
+  "fullAcceptanceComplete": false
+}

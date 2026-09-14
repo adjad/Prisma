@@ -1,0 +1,51 @@
+{
+  "one": {
+    "intervalStart": {
+      "file": "statistics-one-start-1789385815567.txt",
+      "completedFrames": 2652,
+      "meanCommandGpuMs": 7.305002575821867,
+      "historyResets": 1
+    },
+    "intervalEnd": {
+      "file": "statistics-one-end-1789385898672.txt",
+      "completedFrames": 7547,
+      "meanCommandGpuMs": 7.272350182559337,
+      "historyResets": 1
+    },
+    "intervalCompletedFrames": 4895,
+    "meanRendererCommandGpuMs": 7.254659856321904,
+    "rendererFpsRange": [
+      59.54045954045954,
+      59.69403059694031
+    ],
+    "cpuP95RangeMs": [
+      17.164575399999997,
+      17.48590625
+    ]
+  },
+  "two": {
+    "intervalStart": {
+      "file": "statistics-two-start-1789385935824.txt",
+      "completedFrames": 9759,
+      "meanCommandGpuMs": 7.306407589093624,
+      "historyResets": 2
+    },
+    "intervalEnd": {
+      "file": "statistics-two-end-1789386005110.txt",
+      "completedFrames": 13832,
+      "meanCommandGpuMs": 7.385299251335015,
+      "historyResets": 2
+    },
+    "intervalCompletedFrames": 4073,
+    "meanRendererCommandGpuMs": 7.574325456052357,
+    "rendererFpsRange": [
+      59.516676652686236,
+      59.746228394445
+    ],
+    "cpuP95RangeMs": [
+      17.22165795,
+      17.60205225
+    ]
+  },
+  "scope": "GPU values cover the renderer command buffer containing RT over the recorded start/end interval; they do not isolate RT kernels or measure presentation."
+}

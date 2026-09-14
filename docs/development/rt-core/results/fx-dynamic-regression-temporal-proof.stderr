@@ -1,0 +1,4 @@
+2026-09-14 12:05:37.970 temporal-proof[87626:7264529] Metal API Validation Enabled
+Dynamic temporal: variance ratio 0.084768, hard shadow error 0.000000, removed reflection error 0.000000
+Sparse radiance: MSE ratio 0.070493, energy ratio 0.996996, removed mean 0.00042648
+MetalFX rejection-mask cases: 7/7

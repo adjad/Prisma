@@ -1,0 +1,14 @@
+{
+  "method": "Mean RGB difference over fixed reflected-ceiling patch, avoiding the direct lamp reflection; individual raw screenshots retain stochastic noise",
+  "rectangle_xyxy": [
+    700,
+    760,
+    1150,
+    960
+  ],
+  "mean_added_rgb": [
+    2.545788888888889,
+    0.11166666666666666,
+    0.005488888888888889
+  ]
+}

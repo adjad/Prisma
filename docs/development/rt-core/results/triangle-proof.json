@@ -1,0 +1,16 @@
+{
+  "buildGpuMs" : 0.54100004490464926,
+  "captureWritten" : true,
+  "minecraftIntegration" : false,
+  "metalIntersectorExecuted" : true,
+  "invalidRayRejected" : true,
+  "traceGpuMs" : 0.14016666682437062,
+  "maxDistanceError" : 8.2437953796699048e-07,
+  "sceneEpoch" : 1,
+  "failures" : 0,
+  "invalidUpdatePreservedScene" : true,
+  "expectedHits" : 659,
+  "device" : "Apple M5 Pro",
+  "status" : "passed",
+  "rays" : 4104
+}

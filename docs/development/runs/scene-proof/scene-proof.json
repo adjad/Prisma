@@ -1,0 +1,98 @@
+{
+  "time": "2026-09-14T10:08:05.050904Z",
+  "modelChecks": {
+    "slab": {
+      "maxY": 0.5,
+      "topRay": {
+        "hit": true,
+        "distance": 1.5,
+        "primitive": 1
+      },
+      "minY": 0.0,
+      "triangles": 12,
+      "layers": [
+        "SOLID"
+      ]
+    },
+    "foliage": {
+      "maxY": 1.0,
+      "topRay": {
+        "hit": true,
+        "distance": 1.0,
+        "primitive": 3
+      },
+      "minY": 0.0,
+      "triangles": 12,
+      "layers": [
+        "CUTOUT"
+      ]
+    },
+    "stairs": {
+      "maxY": 1.0,
+      "topRay": {
+        "hit": true,
+        "distance": 1.0,
+        "primitive": 6
+      },
+      "minY": 0.0,
+      "triangles": 20,
+      "layers": [
+        "SOLID"
+      ]
+    },
+    "cube": {
+      "maxY": 1.0,
+      "topRay": {
+        "hit": true,
+        "distance": 1.0,
+        "primitive": 3
+      },
+      "minY": 0.0,
+      "triangles": 12,
+      "layers": [
+        "SOLID"
+      ]
+    },
+    "glass": {
+      "maxY": 1.0,
+      "topRay": {
+        "hit": true,
+        "distance": 1.0,
+        "primitive": 3
+      },
+      "minY": 0.0,
+      "triangles": 12,
+      "layers": [
+        "TRANSLUCENT"
+      ]
+    }
+  },
+  "dimension": "ResourceKey[minecraft:dimension / minecraft:overworld]",
+  "origin": [
+    0,
+    86,
+    -15
+  ],
+  "sideBlocks": 25,
+  "blocks": 6803,
+  "triangles": 14070,
+  "primaryRayHits": 59885,
+  "rays": 64000,
+  "sceneEpoch": 6,
+  "cameraFrustumCulling": false,
+  "fluidBlocksSkipped": 0,
+  "entitiesIncluded": false,
+  "alphaTestActive": false,
+  "snapshotOnly": true,
+  "gameplayEffectsActive": false,
+  "visibilitySamplesPerEffect": 32,
+  "visibilityHits": 59885,
+  "meanAmbientVisibility": 0.7164706312098188,
+  "meanSunVisibility": 0.6442206938298405,
+  "sunDirection": [
+    -0.6,
+    0.8,
+    0
+  ],
+  "sunFollowsGameClock": false
+}

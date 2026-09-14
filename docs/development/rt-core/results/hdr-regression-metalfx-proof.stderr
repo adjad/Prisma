@@ -1,0 +1,3 @@
+2026-09-14 11:38:17.888 metalfx-proof[86622:7244261] Metal API Validation Enabled
+2026-09-14 11:38:17.977 metalfx-proof[86622:7244261] [MetalFX] UBFNet fused-MXU path ACTIVE (Metal3; NHWC-native)
+2026-09-14 11:38:17.985 metalfx-proof[86622:7244261] [MetalFX] dBFNet fused-MXU path ACTIVE (Metal3; NHWC-native)

@@ -1,0 +1,31 @@
+{
+  "elapsed_s": 1200.1343317919527,
+  "requested_s": 1200,
+  "events": [
+    {
+      "label": "metrics-sustained-000",
+      "elapsed_s": 0.00012812495697289705
+    },
+    {
+      "label": "metrics-sustained-002",
+      "elapsed_s": 20.01010795799084
+    },
+    {
+      "label": "metrics-sustained-004",
+      "elapsed_s": 40.010165707964916
+    },
+    {
+      "label": "metrics-sustained-060",
+      "elapsed_s": 600.0047291669762
+    },
+    {
+      "label": "metrics-sustained-116",
+      "elapsed_s": 1160.0050565829733
+    },
+    {
+      "label": "metrics-sustained-118",
+      "elapsed_s": 1180.0051041669794
+    }
+  ],
+  "process_running": true
+}

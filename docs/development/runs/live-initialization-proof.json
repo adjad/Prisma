@@ -1,0 +1,12 @@
+{
+  "time": "2026-09-14T10:28:54.354739Z",
+  "device": "Apple M5 Pro",
+  "effectsActive": false,
+  "intersectionProofPassed": true,
+  "requestedMode": "hybrid",
+  "apiSupported": true,
+  "unifiedMemory": true,
+  "recommendedWorkingSetBytes": 19069665280,
+  "sceneEpoch": 1,
+  "status": "proof-passed-effects-not-integrated"
+}

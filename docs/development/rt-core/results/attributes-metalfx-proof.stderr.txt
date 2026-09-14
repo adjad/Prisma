@@ -1,0 +1,2 @@
+2026-09-14 08:35:33.957 metalfx-proof[79839:7099344] [MetalFX] UBFNet fused-MXU path ACTIVE (Metal3; NHWC-native)
+2026-09-14 08:35:33.967 metalfx-proof[79839:7099344] [MetalFX] dBFNet fused-MXU path ACTIVE (Metal3; NHWC-native)

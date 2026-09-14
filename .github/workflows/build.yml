@@ -8,15 +8,21 @@ run-name: ${{ github.ref_name }}
 on:
   workflow_dispatch:
   push:
+    branches:
+      - master
     tags:
       - 'v*'
+  pull_request:
+    branches:
+      - master
 
 permissions:
   contents: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # The build compiles Objective-C++/Metal and packages an arm64 dylib.
+    runs-on: macos-26
     steps:
       - name: checkout repository
         uses: actions/checkout@v6

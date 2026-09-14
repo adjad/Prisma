@@ -1,0 +1,42 @@
+{
+  "covers" : [
+    "transparent surface before opaque depth",
+    "transparent surface before sky",
+    "opaque foreground blocks transparent surface",
+    "raster alpha preserved"
+  ],
+  "passed" : true,
+  "failures" : 0,
+  "cases" : [
+    {
+      "rasterDepth" : 0.5,
+      "rgba" : [
+        250,
+        0,
+        0,
+        128
+      ],
+      "passed" : true
+    },
+    {
+      "rasterDepth" : 0,
+      "rgba" : [
+        250,
+        0,
+        0,
+        128
+      ],
+      "passed" : true
+    },
+    {
+      "rasterDepth" : 0.125,
+      "rgba" : [
+        0,
+        0,
+        255,
+        128
+      ],
+      "passed" : true
+    }
+  ]
+}

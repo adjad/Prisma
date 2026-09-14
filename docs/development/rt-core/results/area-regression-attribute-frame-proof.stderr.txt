@@ -1,0 +1,9 @@
+attribute proof: creating context
+attribute proof: encoding frame 0
+attribute proof: encoding frame 1
+attribute proof: encoding frame 2
+attribute proof: destroying context
+attribute proof: committing frames
+attribute proof: waiting frame 0
+attribute proof: waiting frame 1
+attribute proof: waiting frame 2

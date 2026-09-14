@@ -1,0 +1,10 @@
+2026-09-14 09:11:07.575 area-light-frame-proof[81129:7126543] Metal API Validation Enabled
+area-light frame proof: creating context
+area-light frame proof: encoding frame 0
+area-light frame proof: encoding frame 1
+area-light frame proof: encoding frame 2
+area-light frame proof: destroying context
+area-light frame proof: committing frames
+area-light frame proof: waiting frame 0
+area-light frame proof: waiting frame 1
+area-light frame proof: waiting frame 2

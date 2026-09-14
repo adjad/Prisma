@@ -1,0 +1,11 @@
+{
+  "rendererSha256": "7bdad10bca86e6b811f0afbd3e50a4d711e1c8c302b8f077af2cec4989d2536a",
+  "shaderMatchesSource": true,
+  "nativeLibraryMatchesBuild": true,
+  "nativeProofPassed": true,
+  "benchmarkAlgorithmJarSha256": "6e1e3993b3ce40cdafa460a9159e183c0eb3202d79e4b5105c16b21b4cb5e53a",
+  "finalOnlyChanges": "Retain MetalFX object through GPU completion; rebuild composition pipeline when mode changes even if formats match. Lighting and guide shader unchanged.",
+  "finalLiveExecutionEvidence": "statistics-metalfx-final-build-1789391925058.txt",
+  "finalLiveCompletedMetalFxFrames": 1723,
+  "restoredDefault": "Custom temporal filter; MetalFX optional"
+}

@@ -1,0 +1,95 @@
+{
+  "time": "2026-09-14T18:01:42.461403+00:00",
+  "rendererSha256": "7501f9ec03c890042e127210a81224d7da8674984cbf18147a7b7353a689b860",
+  "installedMatchesBuild": true,
+  "packagedAssetsMatchSourceBuild": {
+    "assets/metallum/rt/trace.metal": "c4a1d711af56f21360e70d3e6cb5acee8fdc1609d850222ef5e7b1ef06614259",
+    "native/macos-aarch64/librtcore.dylib": "9a48290066398127571fe2c0e52dd750249d5718775cf64d5008cb6d482db04d"
+  },
+  "nativeProof": {
+    "passed": true,
+    "failures": 0,
+    "sunSrgb": 0.45241183,
+    "sunReference": 0.45251098,
+    "bakedColorDifference": 0.0,
+    "nightRadiance": 0.0,
+    "emissionSrgb": 0.53709871,
+    "skyLinear": [
+      0.06151068,
+      0.08839511,
+      0.13583924
+    ],
+    "redBounceLinear": 0.08031286,
+    "blueBounceLinear": 0.08031286,
+    "giOff": 0.0,
+    "hybridSrgb": 0.70000005
+  },
+  "gpuRegressions": [
+    {
+      "test": "frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "temporal-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transparency-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "metalfx-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "dynamic-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-gi-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "edge-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "chunk-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "area-light-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "local-transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "physical-lighting-proof",
+      "exitCode": 0
+    }
+  ],
+  "settingsChecks": 31,
+  "clientCommandChecks": 12,
+  "liveImages": "runs/physical-lighting-live-measurements.json",
+  "liveProfiles": "runs/physical-lighting-all-effects-results.json",
+  "finalState": "runs/client-controls-status-1789408860744.txt",
+  "sourceFilesHashed": 221,
+  "fullAcceptanceComplete": false,
+  "remainingQualityLimits": [
+    "dim lamp-driven GI",
+    "dark metallic surfaces and missing specular transport",
+    "primary texture detail",
+    "atmosphere/weather integration",
+    "motion and streaming acceptance"
+  ]
+}

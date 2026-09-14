@@ -1,0 +1,26 @@
+{
+  "floor": {
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": null
+  },
+  "hud": {
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": null
+  },
+  "blue": {
+    "meanDifference": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounds": null
+  }
+}

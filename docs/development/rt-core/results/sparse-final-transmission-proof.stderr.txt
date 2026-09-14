@@ -1,0 +1,1 @@
+2026-09-14 10:02:35.062 transmission-proof[82729:7165258] Metal API Validation Enabled

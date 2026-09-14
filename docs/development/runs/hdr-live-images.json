@@ -1,0 +1,414 @@
+{
+  "framesPerMode": 12,
+  "resolution": [
+    1920,
+    1200
+  ],
+  "toneMappingOnlyChanged": true,
+  "regions": {
+    "highlight": {
+      "rectangle": [
+        880,
+        450,
+        1010,
+        740
+      ],
+      "before": {
+        "meanRgb": [
+          252.10462422634836,
+          252.1141379310345,
+          252.1225198938992
+        ],
+        "whiteFraction": 0.9861803713527851,
+        "anyChannelClippedFraction": 0.9881962864721485,
+        "temporalVarianceRgb": [
+          0.0002961980548187446,
+          0.00016062481579722974,
+          3.831417624521072e-05
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          231.97793103448276,
+          232.52949602122015,
+          233.54187444739168
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.02387341585617544,
+          0.022001915708813016,
+          0.020078838785736016
+        ]
+      }
+    },
+    "shoulder": {
+      "rectangle": [
+        660,
+        470,
+        810,
+        750
+      ],
+      "before": {
+        "meanRgb": [
+          110.36411111111111,
+          119.78384126984128,
+          133.73175396825397
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.13880026455023675,
+          0.2265780423280185,
+          0.3710747354496297
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          99.07839682539682,
+          107.72034126984127,
+          120.50051587301587
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.09435978835976012,
+          0.15125462962960567,
+          0.24250859788355839
+        ]
+      }
+    },
+    "sideFloor": {
+      "rectangle": [
+        150,
+        420,
+        420,
+        680
+      ],
+      "before": {
+        "meanRgb": [
+          62.02016619183286,
+          74.24091642924976,
+          90.96019468186135
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.5147147040202891,
+          0.8077504748335451,
+          1.236712962963133
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          58.888765432098765,
+          70.60706552706553,
+          86.63828110161444
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.3973243114911142,
+          0.6159219689773956,
+          0.945106046216872
+        ]
+      }
+    },
+    "sky": {
+      "rectangle": [
+        200,
+        30,
+        600,
+        150
+      ],
+      "before": {
+        "meanRgb": [
+          181.0,
+          208.0,
+          255.0
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 1.0,
+        "temporalVarianceRgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          181.0,
+          208.0,
+          255.0
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 1.0,
+        "temporalVarianceRgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "additionalControls": {
+    "exposure-minus-one": {
+      "highlight": {
+        "meanRgb": [
+          219.00470380194517,
+          219.50470380194517,
+          220.42344827586206
+        ],
+        "whiteFraction": 0.0
+      },
+      "sky": {
+        "meanRgb": [
+          181.0,
+          208.0,
+          255.0
+        ],
+        "whiteFraction": 0.0
+      }
+    },
+    "metalfx": {
+      "highlight": {
+        "meanRgb": [
+          231.97426392572945,
+          232.54183908045977,
+          233.48487842617152
+        ],
+        "whiteFraction": 0.02161361626878868
+      },
+      "sky": {
+        "meanRgb": [
+          181.0,
+          208.0,
+          255.0
+        ],
+        "whiteFraction": 0.0
+      }
+    }
+  },
+  "screenshotSha256": {
+    "screenshots/series-hdr-after-00.png": "9660fd5f1c47867eef8779738582924914c014781f50078dbdaac8d2f392f64c",
+    "screenshots/series-hdr-after-01.png": "1515b2e150c8e0e2366578c8a7c01a5623c477b315723edde9574b2efa667cdb",
+    "screenshots/series-hdr-after-02.png": "e800fd89457675a762deed032a2f59b11c16646e3181fa490618f58175da24f0",
+    "screenshots/series-hdr-after-03.png": "79c1527017049305bc8e9137f3465f9b6aea5b554973c366b21a98c7f10fa3bf",
+    "screenshots/series-hdr-after-04.png": "bac9572f826bdbe1fdc85f26cf27ff34f9876163bd7d58b11a2a8469ddd75c69",
+    "screenshots/series-hdr-after-05.png": "44d01ae845880058ea67282123c0f4b432c6ab2da50b659c0e6d90c2ea0c0f9d",
+    "screenshots/series-hdr-after-06.png": "aa72c5fca965562498dcbd97581e14fe9d59378b8b06eff27ebe258f554f39d3",
+    "screenshots/series-hdr-after-07.png": "8182ac1d5740326eba4bf932c6b57e6884312f3ac974e904df31a1fc005d6fb1",
+    "screenshots/series-hdr-after-08.png": "92545d1af2ad4cd4a4c8a7cf042366f4c3363b631fcd8d746bdff269a4db8e4f",
+    "screenshots/series-hdr-after-09.png": "905026a47d397ae9f2cdb5d9e801258b9d0ce53f615c733687dcb99a5c7a643a",
+    "screenshots/series-hdr-after-10.png": "4e2b1ff62d6c621a6de384e629bba7594ec457bc960c3feb82c05a6f437f94d2",
+    "screenshots/series-hdr-after-11.png": "fd77686540222540fb03695f900f26640eb6ed4c3256ae344a6a322a6564b1d0",
+    "screenshots/series-hdr-before-00.png": "1163e46a0d3756a4c8062f1343946b2c7028172b24eb6385e6d3ad8a90dc3126",
+    "screenshots/series-hdr-before-01.png": "65c4873bc951ff997988718c3ff3d602d0dbb37f4df445a455c100bf8680d959",
+    "screenshots/series-hdr-before-02.png": "70a9f6b4f31c194c54b8d59ef84e1dee5d8e5aa39c50ca0fe2390dd0026473a4",
+    "screenshots/series-hdr-before-03.png": "4f9a062a96b86a39b06abfa81feae0319fc0e2934e81ad745db0a6e2034f318c",
+    "screenshots/series-hdr-before-04.png": "ebd4f9bd29291838190e492d0280a89b3eaf12327e5a6325dfbd83886256bc41",
+    "screenshots/series-hdr-before-05.png": "cec752bcd7b26f3f9b0ba5034c8fcb1ecbbb7e2be23b0f18a473b193c37e543f",
+    "screenshots/series-hdr-before-06.png": "a01f45ddb32ddfff1f5ab25cbf13aefc809c6f1723eee718152dda01e052d310",
+    "screenshots/series-hdr-before-07.png": "44be9a13af87348c75ba93fa2f0c5c36cad87637616348c5f69043d0e6539798",
+    "screenshots/series-hdr-before-08.png": "b34db1bb63e71b9fa048eb587f9c8e62dc8c8e66e752b6a1825f5da3467a4748",
+    "screenshots/series-hdr-before-09.png": "18ab90bbea6bd48cc2db7414a610db4e59bc589a1ccb0797c31f7add260bd200",
+    "screenshots/series-hdr-before-10.png": "1a3d372b2fe54468533b3ef5f7457bd30ea0fa41f4668ccb5d96ce50f4fd8c49",
+    "screenshots/series-hdr-before-11.png": "edb2bbf49be74c210ee86ad414be9b4ee8834dc60d15c12c87aa5fe0200a1510",
+    "screenshots/series-hdr-exposure-minus-one-00.png": "3c619273877b51b87191c3adbe999ad25cf9819eb995fde2fd3569d53f8aa33d",
+    "screenshots/series-hdr-exposure-minus-one-01.png": "15d15b8cc00ffbffc22ec04f87755c5f548676a9cda05378d3afe5b89ae98de8",
+    "screenshots/series-hdr-exposure-minus-one-02.png": "75d3a30712c7517929510ddd5debe1d5213ad901db15055213a86987bc90d00d",
+    "screenshots/series-hdr-exposure-minus-one-03.png": "264091cc75fd2dc7764aa3b9a8afbe3a6a127c9687e1df65e4c4bccc0203ee69",
+    "screenshots/series-hdr-exposure-minus-one-04.png": "7f502b9bedb276526807e440fafe1fde9995eebabcb27c00c31791f32d3019de",
+    "screenshots/series-hdr-exposure-minus-one-05.png": "7d83d295fbb04aef58f24bd844de2e918d6d5d08b251122da24e953070d78179",
+    "screenshots/series-hdr-exposure-minus-one-06.png": "822c0e80ba1437461f1765a518d5752d72811b72d07ae327779a2191b69a4181",
+    "screenshots/series-hdr-exposure-minus-one-07.png": "d51ab86818b2b133ccae5e2f77582c06a299d2a06b23e0eddeccc04671a2d468",
+    "screenshots/series-hdr-exposure-minus-one-08.png": "a0c8f5e9733df057c865ba6c1e24d9a88ccf46aef61cb575faf85557f76cecb8",
+    "screenshots/series-hdr-exposure-minus-one-09.png": "4382264506c79d2ffbaecaaae51edd3a96667f6ee168f7e8b17f53bd8bedd567",
+    "screenshots/series-hdr-exposure-minus-one-10.png": "323d920dcd58dc2bdadfbf0adfec9928cfb21644ebcf1d34894b2ef431dfb1cc",
+    "screenshots/series-hdr-exposure-minus-one-11.png": "67e357796e59a27a677d616f57ce9a7daf128232b524ef0017ec7c4f962d2bd8",
+    "screenshots/series-hdr-matched-after-00.png": "9cb0b5b480b74418cfae836dae11b1ff49d911b297c3df326af795fa197176ea",
+    "screenshots/series-hdr-matched-after-01.png": "9bb295c8e9e681a33c30eea6846e552c4d46a9e264f2e1056d971c0e26b95c5a",
+    "screenshots/series-hdr-matched-after-02.png": "adbb53f2d80e1277356cb8438852324db10b641017695aed620087ab09870cde",
+    "screenshots/series-hdr-matched-after-03.png": "2c76cafbddcc44effac373d76cac9520217d22c59a16f5600452d4ffcdaab6f8",
+    "screenshots/series-hdr-matched-after-04.png": "79ffd2a112406b81631b3843f60839915150564312cdaab3b3aa18514f055b4f",
+    "screenshots/series-hdr-matched-after-05.png": "aa842ef10d7ccdd94e27c5c3ad133493811557d3618bc1264e8ff19f4807d610",
+    "screenshots/series-hdr-matched-after-06.png": "681e79f27396354e3cae433fe88efd82d359fdb4e81c0f56fdbf2b6052a0bb3c",
+    "screenshots/series-hdr-matched-after-07.png": "bcbf9cc42934c7419c9ea15f0fafc3777a9eafc1678da399201219a93b176ce0",
+    "screenshots/series-hdr-matched-after-08.png": "ba10c54048b22030614b1ad1e6ba6dfe8e9ef0f031b96c81b2de44be3913f122",
+    "screenshots/series-hdr-matched-after-09.png": "fef12f1fdafdf3df5e90b786cbf576e1c3a51c3bd5e8c54a1d6f2316302e7d4e",
+    "screenshots/series-hdr-matched-after-10.png": "199839423d57ef75614165f9f66f5d5f3f5a1c8fd79ce81eb703fb889b338153",
+    "screenshots/series-hdr-matched-after-11.png": "7f3fcf6f15760206c1a3c389680bc7152a3f327d3b93e3a10693500b5487854e",
+    "screenshots/series-hdr-matched-before-00.png": "9af21cf61f4b4b9c5bc5c45acbfc5bd0345daa3d9adce794759cc0b8625b5951",
+    "screenshots/series-hdr-matched-before-01.png": "f907ddbb31038ae013075adda3b447300c42eee6f545b41ad291fd17d49ea400",
+    "screenshots/series-hdr-matched-before-02.png": "68eb66642a834486d24ac5f85bf1eeaa6272574dda85aa5aca9ab4a4c2807aca",
+    "screenshots/series-hdr-matched-before-03.png": "181f84f6605f1f5397e975d23feaec420d164825db7b88111f50a8baa7c09602",
+    "screenshots/series-hdr-matched-before-04.png": "fd4fda826634a92f0fd74db6726ad5bfecd1125d127781338770f1ae58798083",
+    "screenshots/series-hdr-matched-before-05.png": "ede061ad3aac8e094289278b3018fa3c4ee1e176c38a816c0807cf62920e7600",
+    "screenshots/series-hdr-matched-before-06.png": "6be9dbada5217d98cf6ac0382b119023e7346d2a90b830866af248591ab1ec4f",
+    "screenshots/series-hdr-matched-before-07.png": "589767b0ec515016020022190252fa558ecb8faf86f4a293d9a578c68176e2f8",
+    "screenshots/series-hdr-matched-before-08.png": "b99d63b420019d7691cbdaa307e99eda274e335342adb3fa2c405fb2d6a7db9c",
+    "screenshots/series-hdr-matched-before-09.png": "fc92bf9a7eda2a215dc2b2ad07633523d5b95ba70100675fef851afffb1aec79",
+    "screenshots/series-hdr-matched-before-10.png": "4c15acfd4978a29eab83859dcde778f23675208c7bb6d5290ee8d6d1cd3c3d9c",
+    "screenshots/series-hdr-matched-before-11.png": "08ed41c9fe5df273414fbab58b6b74f1e190115a777fa6d4a175333e7c0ec6e8",
+    "screenshots/series-hdr-metalfx-00.png": "55e4152bafb08e427e6608e354b68ef22fd34227f0dcfb7e665cde873e838d37",
+    "screenshots/series-hdr-metalfx-01.png": "1f29d64a4e0c00b41ecdf8e9a8ecc7140f6b2f9da97955094ad167c189b5200d",
+    "screenshots/series-hdr-metalfx-02.png": "a8ff951a07cac7d3b4239390ccc00c5be043c37f7e46210766d57298aab8cc06",
+    "screenshots/series-hdr-metalfx-03.png": "55676ae5b3bd5806f138e9209375cf1a58a4b8ff23a8eec921c611b7a9ec04b0",
+    "screenshots/series-hdr-metalfx-04.png": "61a79c16ac27e850b6d0edd4630759608de8d28178926e782dbba07ff2d1d107",
+    "screenshots/series-hdr-metalfx-05.png": "4eafe94338893eb31e1de41ba87837bfab9a6336b472765a6cac1836865cbed8",
+    "screenshots/series-hdr-metalfx-06.png": "fe19d9e19b9189528779a6c1d39f24a634aa87aad63a836180f26affadab0c0f",
+    "screenshots/series-hdr-metalfx-07.png": "3f86286b77f4c10194c9b90ff3c8bf94bfca2f973e129ea9d15102eda31e8f3f",
+    "screenshots/series-hdr-metalfx-08.png": "05c41f873285150b7543e8e404af74f76ad8dc3eef4868c75c99bf5de2634d24",
+    "screenshots/series-hdr-metalfx-09.png": "fb55a034d5d9f099d39d39b63c6b856024eb605670ecd6ae697e4219b39718f5",
+    "screenshots/series-hdr-metalfx-10.png": "8d7242743e421bab1e3731947ca9f0d467dae40db5db8257ebaf93f2a7652ac9",
+    "screenshots/series-hdr-metalfx-11.png": "6bbd665e000747e6bc54b243d63c47b608b6773125c8b427d90f82f2b2a19746"
+  },
+  "comparisonTimingNote": "Accepted pair series-hdr-matched-before/after: both cap60, identical fixed camera/time/effects; only toneMapping changes. Earlier series-hdr-before/after used different caps and remain historical evidence.",
+  "earlierDifferentCapRegions": {
+    "highlight": {
+      "rectangle": [
+        880,
+        450,
+        1010,
+        740
+      ],
+      "before": {
+        "meanRgb": [
+          252.10471264367817,
+          252.11419098143236,
+          252.1225287356322
+        ],
+        "whiteFraction": 0.9861715296198055,
+        "anyChannelClippedFraction": 0.9881962864721485,
+        "temporalVarianceRgb": [
+          0.00036987916298261166,
+          0.00021809608016504594,
+          4.9366342469790734e-05
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          231.9783908045977,
+          232.5311405835544,
+          233.54259946949603
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.024075302092544403,
+          0.0223334806955504,
+          0.019670645446508258
+        ]
+      }
+    },
+    "shoulder": {
+      "rectangle": [
+        660,
+        470,
+        810,
+        750
+      ],
+      "before": {
+        "meanRgb": [
+          110.36537301587302,
+          119.78895238095238,
+          133.7385238095238
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.13704563492060812,
+          0.22102116402114222,
+          0.3628915343914323
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          99.07926984126983,
+          107.718,
+          120.50292063492064
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.09575925925922966,
+          0.1506891534391291,
+          0.24018518518514959
+        ]
+      }
+    },
+    "sideFloor": {
+      "rectangle": [
+        150,
+        420,
+        420,
+        680
+      ],
+      "before": {
+        "meanRgb": [
+          62.02177113010446,
+          74.24050807217473,
+          90.95771130104464
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.5049521209243703,
+          0.7861502849000216,
+          1.2103434631214347
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          58.88438271604938,
+          70.59767331433999,
+          86.62752136752137
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 0.0,
+        "temporalVarianceRgb": [
+          0.3970065685344756,
+          0.6180286483062872,
+          0.953854067742696
+        ]
+      }
+    },
+    "sky": {
+      "rectangle": [
+        200,
+        30,
+        600,
+        150
+      ],
+      "before": {
+        "meanRgb": [
+          181.0,
+          208.0,
+          255.0
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 1.0,
+        "temporalVarianceRgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          181.0,
+          208.0,
+          255.0
+        ],
+        "whiteFraction": 0.0,
+        "anyChannelClippedFraction": 1.0,
+        "temporalVarianceRgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "acceptedCapturePrefix": "series-hdr-matched"
+}

@@ -1,0 +1,30 @@
+{
+  "time": "2026-09-14T11:10:07.000774+00:00",
+  "swap_before_short_profiles_mib": 2435.5,
+  "note": "Baseline swap value was read after the second Minecraft JVM was closed; these are system-wide values.",
+  "swap_after": {
+    "exitCode": 0,
+    "output": "vm.swapusage: total = 4096.00M  used = 2419.50M  free = 1676.50M  (encrypted)",
+    "error": ""
+  },
+  "memory_pressure_level": {
+    "exitCode": 0,
+    "output": "1",
+    "error": ""
+  },
+  "vm_statistics": {
+    "exitCode": 0,
+    "output": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                   212150.\nPages active:                                 494343.\nPages inactive:                               491318.\nPages speculative:                              1878.\nPages throttled:                                   0.\nPages wired down:                             269082.\nPages purgeable:                               32591.\n\"Translation faults\":                     3038848652.\nPages copy-on-write:                        89086943.\nPages zero filled:                        2675346346.\nPages reactivated:                         226615121.\nPages purged:                              157420449.\nFile-backed pages:                            307159.\nAnonymous pages:                              680380.\nPages stored in compressor:                   122771.\nPages occupied by compressor:                  43690.\nDecompressions:                            547698793.\nCompressions:                              614075771.\nPageins:                                   127495398.\nPageouts:                                     329609.\nSwapins:                                     8570477.\nSwapouts:                                   10881887.\nPages tagged:                                 128032.\nPages tagged resident:                        114284.\nPages tagged compressed:                       13748.\nPages tag-storage:                             49152.\nPages tag-storage holding tags:                 5795.\nPages tag-storage free:                          571.\nPages tag-storage non-tag pageable:            42606.\nPages tag-storage non-tag wired:                  93.\nBytes of compressed tags:                    1945536.\nTagged compressions:                        23660468.\nTagged decompressions:                      22660626.",
+    "error": ""
+  },
+  "game_rss_kib": {
+    "exitCode": 0,
+    "output": "2572672",
+    "error": ""
+  },
+  "power": {
+    "exitCode": 0,
+    "output": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=36307043)\t80%; AC attached; not charging present: true",
+    "error": ""
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "method": "Same-camera RGB differences; spatial variance includes physical gradients and is not temporal variance",
+  "rectangles_xyxy": {
+    "upper_receiver": [
+      650,
+      300,
+      790,
+      365
+    ],
+    "left_receiver": [
+      625,
+      395,
+      760,
+      455
+    ],
+    "below_blocker": [
+      770,
+      500,
+      875,
+      555
+    ]
+  },
+  "measurements": {
+    "upper_receiver": {
+      "uniform_mean_added_rgb": [
+        1.2804395604395604,
+        0.9531868131868132,
+        0.5806593406593407
+      ],
+      "importance_mean_added_rgb": [
+        2.329010989010989,
+        1.545934065934066,
+        0.8613186813186813
+      ],
+      "uniform_spatial_variance": 27.14869527298099,
+      "importance_spatial_variance": 1.0232116357391083
+    },
+    "left_receiver": {
+      "uniform_mean_added_rgb": [
+        0.8714814814814815,
+        0.6537037037037037,
+        0.3916049382716049
+      ],
+      "importance_mean_added_rgb": [
+        2.43641975308642,
+        1.623456790123457,
+        0.9054320987654321
+      ],
+      "uniform_spatial_variance": 18.07604823790411,
+      "importance_spatial_variance": 1.0269307507324423
+    },
+    "below_blocker": {
+      "uniform_mean_added_rgb": [
+        1.7923809523809524,
+        1.2524675324675325,
+        0.6760173160173161
+      ],
+      "importance_mean_added_rgb": [
+        2.1942857142857144,
+        1.4465800865800866,
+        0.887965367965368
+      ],
+      "uniform_spatial_variance": 27.312131518441472,
+      "importance_spatial_variance": 0.6430966736005697
+    }
+  }
+}

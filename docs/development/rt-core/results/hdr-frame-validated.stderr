@@ -1,0 +1,4 @@
+2026-09-14 11:38:49.979 hdr-frame-proof[86648:7244691] Metal API Validation Enabled
+2026-09-14 11:38:49.979 hdr-frame-proof[86648:7244691] Metal GPU Validation Enabled
+2026-09-14 11:39:22.146 hdr-frame-proof[86648:7244691] [MetalFX] UBFNet fused-MXU path ACTIVE (Metal3; NHWC-native)
+2026-09-14 11:39:23.783 hdr-frame-proof[86648:7244691] [MetalFX] dBFNet fused-MXU path ACTIVE (Metal3; NHWC-native)

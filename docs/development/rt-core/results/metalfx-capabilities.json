@@ -1,0 +1,10 @@
+{
+  "device" : "Apple M5 Pro",
+  "hardwareRayTracing" : true,
+  "denoiserExecuted" : false,
+  "minecraftIntegration" : false,
+  "maximumScale" : 3,
+  "temporalDenoisedScalerSupported" : true,
+  "minimumScale" : 1,
+  "metal4TemporalDenoisedScalerSupported" : true
+}

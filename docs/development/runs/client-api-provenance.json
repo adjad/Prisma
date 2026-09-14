@@ -1,0 +1,24 @@
+[
+  {
+    "artifact": "fabric-command-api-v2-3.1.0+00cb03469e.pom",
+    "sha256": "e63d67e3d8ebd4de1eaa2cd4e40db1fd68c9f00f6efe25448f56b401f0b90110"
+  },
+  {
+    "artifact": "fabric-command-api-v2-3.1.0+00cb03469e.jar",
+    "sha256": "067dc4f579ba2810826bd13538f8968cf3643795a6948cfac231ebd5209851e1",
+    "allNonManifestEntriesMatchInstalled": true,
+    "changedEntries": [
+      "META-INF/MANIFEST.MF"
+    ]
+  },
+  {
+    "artifact": "fabric-api-base-2.0.4+ece063239e.pom",
+    "sha256": "e82f4864317bde6a439c347cc7fbbec8627d489f09993d5af67aa025dc4f8148"
+  },
+  {
+    "artifact": "fabric-api-base-2.0.4+ece063239e.jar",
+    "sha256": "91679a213120ca9fe8681461f4e9ff65f296a80a844d50c7dfc2113787b8b41a",
+    "allNonManifestEntriesMatchInstalled": true,
+    "changedEntries": []
+  }
+]

@@ -1,0 +1,1 @@
+Dynamic temporal: variance ratio 0.084768, hard shadow error 0.000000, removed reflection error 0.000000

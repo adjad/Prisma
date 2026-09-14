@@ -1,0 +1,137 @@
+{
+  "method": "Per-pixel temporal variance over twelve unmodified screenshots per renderer at 200 ms spacing. Same fixture/camera, three samples, reflection-only, local lights enabled, dynamic temporal enabled. Clouds and natural entity poses may differ. Mean brightness is reported to detect attenuation masquerading as reduced noise.",
+  "regions": {
+    "lamp_reflection": {
+      "before": {
+        "meanRgb": [
+          184.38699340820312,
+          168.12147521972656,
+          150.99661254882812
+        ],
+        "meanTemporalVarianceRgb": [
+          119.404296875,
+          136.84425354003906,
+          125.79127502441406
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          184.45680236816406,
+          168.12704467773438,
+          151.2296142578125
+        ],
+        "meanTemporalVarianceRgb": [
+          35.51704788208008,
+          42.8007926940918,
+          25.44771957397461
+        ]
+      },
+      "varianceRatio": 0.27160927537014484,
+      "xyxy": [
+        840,
+        490,
+        1070,
+        690
+      ]
+    },
+    "reflected_ceiling": {
+      "before": {
+        "meanRgb": [
+          136.37001037597656,
+          127.15039825439453,
+          130.94345092773438
+        ],
+        "meanTemporalVarianceRgb": [
+          15.528116226196289,
+          11.318435668945312,
+          12.120006561279297
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          136.407470703125,
+          127.22555541992188,
+          131.00148010253906
+        ],
+        "meanTemporalVarianceRgb": [
+          5.947805404663086,
+          5.186633110046387,
+          6.252427101135254
+        ]
+      },
+      "varianceRatio": 0.44619967234955343,
+      "xyxy": [
+        700,
+        760,
+        1150,
+        960
+      ]
+    },
+    "floor_left": {
+      "before": {
+        "meanRgb": [
+          131.4046173095703,
+          137.40187072753906,
+          147.7353515625
+        ],
+        "meanTemporalVarianceRgb": [
+          10.34089183807373,
+          8.397773742675781,
+          6.605999946594238
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          131.39898681640625,
+          137.3858642578125,
+          147.70089721679688
+        ],
+        "meanTemporalVarianceRgb": [
+          10.761946678161621,
+          9.292946815490723,
+          7.556385517120361
+        ]
+      },
+      "varianceRatio": 1.0894315800294765,
+      "xyxy": [
+        250,
+        450,
+        700,
+        800
+      ]
+    },
+    "distant_floor": {
+      "before": {
+        "meanRgb": [
+          124.14810180664062,
+          128.2183380126953,
+          135.0421600341797
+        ],
+        "meanTemporalVarianceRgb": [
+          224.5406494140625,
+          198.61619567871094,
+          167.28994750976562
+        ]
+      },
+      "after": {
+        "meanRgb": [
+          124.13666534423828,
+          128.1796417236328,
+          134.9707794189453
+        ],
+        "meanTemporalVarianceRgb": [
+          226.7998504638672,
+          200.41209411621094,
+          166.8236083984375
+        ]
+      },
+      "varianceRatio": 1.0060780419521937,
+      "xyxy": [
+        400,
+        270,
+        760,
+        310
+      ]
+    }
+  }
+}

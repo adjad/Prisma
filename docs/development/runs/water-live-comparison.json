@@ -1,0 +1,25 @@
+{
+  "comparison": "Final absorption build, same camera and settings; off-screen red wall present versus removed",
+  "region": [
+    750,
+    680,
+    1200,
+    765
+  ],
+  "mean_present_rgb": [
+    97.72875816993464,
+    101.15720261437909,
+    110.62507189542484
+  ],
+  "mean_removed_rgb": [
+    96.92724183006536,
+    102.20355555555555,
+    112.14658823529412
+  ],
+  "mean_delta_rgb": [
+    0.8015163398692811,
+    -1.0463529411764705,
+    -1.521516339869281
+  ],
+  "warning": "Subtle small Fresnel contribution at this steep viewing angle; wall removal also changes occlusion/GI. Not an isolated reflection energy measurement."
+}

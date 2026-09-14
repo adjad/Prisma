@@ -1,0 +1,17 @@
+{
+  "glass": {
+    "completedFrames": 5362,
+    "rendererCommandBufferGpuMeanMs": 16.714702349715246,
+    "start": "statistics-glass-light-optimized-start-1789389454093.txt",
+    "end": "statistics-glass-light-optimized-end-1789389544887.txt",
+    "cpuProfiles": "glass-light-optimized-cap60-results.json"
+  },
+  "water": {
+    "completedFrames": 7046,
+    "rendererCommandBufferGpuMeanMs": 7.668235086104451,
+    "start": "statistics-water-light-optimized-start-1789389596047.txt",
+    "end": "statistics-water-light-optimized-end-1789389715482.txt",
+    "cpuProfiles": "water-light-optimized-cap60-results.json"
+  },
+  "limits": "Surrounding GPU interval measures whole renderer command buffers, not isolated RT or presentation. CPU timing is three ten-second frame-loop samples per scene. No final sustained acceptance."
+}

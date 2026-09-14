@@ -1,0 +1,26 @@
+{
+  "covers" : [
+    "alternating one-pixel coverage",
+    "full-resolution repair recovers skipped transparent pixels",
+    "foreground occluders preserved",
+    "raster alpha preserved"
+  ],
+  "passed" : true,
+  "failures" : 0,
+  "cases" : [
+    {
+      "passed" : true,
+      "edgeRefinement" : false,
+      "blueForegroundPixels" : 128,
+      "redTransmittedPixels" : 0,
+      "alphaErrors" : 0
+    },
+    {
+      "passed" : true,
+      "edgeRefinement" : true,
+      "blueForegroundPixels" : 128,
+      "redTransmittedPixels" : 128,
+      "alphaErrors" : 0
+    }
+  ]
+}

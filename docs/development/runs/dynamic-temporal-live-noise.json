@@ -1,0 +1,216 @@
+{
+  "regions": {
+    "contact": [
+      1040,
+      585,
+      1120,
+      635
+    ],
+    "pillar_shadow": [
+      840,
+      390,
+      920,
+      450
+    ],
+    "floor_reflection": [
+      760,
+      720,
+      940,
+      850
+    ],
+    "gold_face": [
+      1000,
+      230,
+      1060,
+      310
+    ],
+    "selectedFrom": "capture-dynamic-temporal-fixture.png",
+    "scope": "Fixed pillar/floor regions selected before calculating before/after variance; all effects enabled"
+  },
+  "framesPerMode": 12,
+  "caveat": "The pillar_shadow region includes the moving cow reflection; its variance includes real scene changes. Other regions are selected fixed features, not proof of full-scene temporal correctness.",
+  "comparisons": {
+    "contact": {
+      "before": {
+        "variance": 27.77402687072754,
+        "meanRgb": [
+          94.35430908203125,
+          98.19747924804688,
+          104.21270751953125
+        ]
+      },
+      "after": {
+        "variance": 8.874265670776367,
+        "meanRgb": [
+          94.73277282714844,
+          98.55464935302734,
+          104.54210662841797
+        ]
+      },
+      "varianceReductionPercent": 68.04832906628529,
+      "includesKnownMovingReflection": false
+    },
+    "pillar_shadow": {
+      "before": {
+        "variance": 101.95634460449219,
+        "meanRgb": [
+          78.49760437011719,
+          90.19822692871094,
+          106.70640563964844
+        ]
+      },
+      "after": {
+        "variance": 97.70386505126953,
+        "meanRgb": [
+          78.69652557373047,
+          90.12908172607422,
+          106.37638854980469
+        ]
+      },
+      "varianceReductionPercent": 4.170882714282098,
+      "includesKnownMovingReflection": true
+    },
+    "floor_reflection": {
+      "before": {
+        "variance": 0.8738596439361572,
+        "meanRgb": [
+          139.42347717285156,
+          149.24783325195312,
+          163.98544311523438
+        ]
+      },
+      "after": {
+        "variance": 0.8102150559425354,
+        "meanRgb": [
+          139.58815002441406,
+          149.40054321289062,
+          164.10601806640625
+        ]
+      },
+      "varianceReductionPercent": 7.283159078836188,
+      "includesKnownMovingReflection": false
+    },
+    "gold_face": {
+      "before": {
+        "variance": 3.4530863761901855,
+        "meanRgb": [
+          110.56147766113281,
+          95.05807495117188,
+          23.58091926574707
+        ]
+      },
+      "after": {
+        "variance": 2.756098747253418,
+        "meanRgb": [
+          110.64920043945312,
+          95.09754943847656,
+          23.54001808166504
+        ]
+      },
+      "varianceReductionPercent": 20.184482894568045,
+      "includesKnownMovingReflection": false
+    }
+  },
+  "sources": {
+    "before": [
+      {
+        "file": "series-dynamic-before-00.png",
+        "sha256": "61168316e7e170fa177cc93f5a5e207a2146506b57188cec73765d5b66da4fb2"
+      },
+      {
+        "file": "series-dynamic-before-01.png",
+        "sha256": "164d4ee050a6fd467c58543fa6f804995275d5a244ef991fafc81550d424f578"
+      },
+      {
+        "file": "series-dynamic-before-02.png",
+        "sha256": "c07cefb2e454a3e378c6d457a6c1a462a913d5f7e5f1366a51cfe14e8abc708e"
+      },
+      {
+        "file": "series-dynamic-before-03.png",
+        "sha256": "5127459eb5e2535ebc8eab55827dcb3324842e5c6a0855fd3a4aaf6f4f3bb651"
+      },
+      {
+        "file": "series-dynamic-before-04.png",
+        "sha256": "18830563ee241feef4ed54fa4cbcd5a0c81a34007c7a5f045a7dfe04e42d2b74"
+      },
+      {
+        "file": "series-dynamic-before-05.png",
+        "sha256": "c17b731c6b6a3bc9b6988202b16facffef7eb26fd8d044e9e4e0a694505170c7"
+      },
+      {
+        "file": "series-dynamic-before-06.png",
+        "sha256": "b01abe87ca94940420ab03be1820f539491c27559b9fc32dd42ca94364c92c22"
+      },
+      {
+        "file": "series-dynamic-before-07.png",
+        "sha256": "102a38db095e28795c6c52c9fec8c086984800a1c9748d78cfb7be3363938817"
+      },
+      {
+        "file": "series-dynamic-before-08.png",
+        "sha256": "45bc904cb1cb2b3e029f676822d49116f75e3b3521837a8c27817d05a805660c"
+      },
+      {
+        "file": "series-dynamic-before-09.png",
+        "sha256": "e774ebd613fbc7ef645706df0e38172bb750c9bd818812c1f67dcea4c2dbb87f"
+      },
+      {
+        "file": "series-dynamic-before-10.png",
+        "sha256": "590060f186149f921c26aa25c17d504563ed39b8ae49d8438411f46ab32a2c38"
+      },
+      {
+        "file": "series-dynamic-before-11.png",
+        "sha256": "30065ef8eb72616351383f562b34fdcb49c1e09712868b52534f2f092958190f"
+      }
+    ],
+    "after": [
+      {
+        "file": "series-dynamic-after-00.png",
+        "sha256": "e39dc5da536fdc8b1dcad375943bf00f2011da13775c98b6dcbb0a368b43a6a7"
+      },
+      {
+        "file": "series-dynamic-after-01.png",
+        "sha256": "31819a51f66d2877f8e86b9f06efc52f674c04d8cc7dc2bdee32697ce51df5f1"
+      },
+      {
+        "file": "series-dynamic-after-02.png",
+        "sha256": "3e6aa8d470f1d076cf3fc51a839f8bfdbe79186ffdd47821afef08358d1c7123"
+      },
+      {
+        "file": "series-dynamic-after-03.png",
+        "sha256": "4297e9d001f696c761326b53e77e773ade1d8ab81322139c6431cbe280dcb073"
+      },
+      {
+        "file": "series-dynamic-after-04.png",
+        "sha256": "5db4d2ba3b1c89c50ce6943a9a8aa6d399bb8b22c8387f50f7c705cc8a577dd3"
+      },
+      {
+        "file": "series-dynamic-after-05.png",
+        "sha256": "bf3aaf330283b2ff123c1eccc579a23da0ba1120d99c0db5f2265806449b5797"
+      },
+      {
+        "file": "series-dynamic-after-06.png",
+        "sha256": "0f821fd01a957290e82c3b30b42f03b04f0b52480a1bb1a6dc6ca932b9aee879"
+      },
+      {
+        "file": "series-dynamic-after-07.png",
+        "sha256": "fafa135872fff642a24ca83352a29872fa190701ed4541e3746a18a89eacc70d"
+      },
+      {
+        "file": "series-dynamic-after-08.png",
+        "sha256": "54d29e9a5559144784ff592a4fa36b4a66687a79c7b999e6f278070a2ab00b0c"
+      },
+      {
+        "file": "series-dynamic-after-09.png",
+        "sha256": "825516b9c463d1343c5b09fc1123e4a978ab2d5838b0f959a14de92489cce04f"
+      },
+      {
+        "file": "series-dynamic-after-10.png",
+        "sha256": "2aef4b534c81421ce418aada62a6692130055e197d084e8f705765dc6a60230e"
+      },
+      {
+        "file": "series-dynamic-after-11.png",
+        "sha256": "d95aa02d91f60b54efef94272f62c1553e6496c67ab5d740089ea6cdbc842eb4"
+      }
+    ]
+  }
+}

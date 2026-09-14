@@ -1,0 +1,32 @@
+{
+  "time": "2026-09-14T17:43:52.597939+00:00",
+  "rendererSha256": "994a6a0702bea85d7f2527af385a884efeed6e10aac06aae2d42c6728862342d",
+  "installedSha256": "994a6a0702bea85d7f2527af385a884efeed6e10aac06aae2d42c6728862342d",
+  "nativeAssetsUnchangedSinceSustainedRun": {
+    "assets/metallum/rt/trace.metal": true,
+    "native/macos-aarch64/librtcore.dylib": true
+  },
+  "automatedChecks": {
+    "settings": 29,
+    "clientCommands": 12,
+    "passed": true
+  },
+  "liveReceipts": [
+    "runs/client-controls-balanced-1789407677591.txt",
+    "runs/client-controls-balanced-1789407719207.txt",
+    "runs/client-controls-gi-half-1789407701913.txt",
+    "runs/client-controls-off-1789407709065.txt",
+    "runs/client-controls-on-1789407716605.txt",
+    "runs/client-controls-reload-1789407704882.txt",
+    "runs/client-controls-samples-two-1789407687919.txt",
+    "runs/client-controls-status-1789407668062.txt",
+    "runs/client-controls-status-1789407712585.txt",
+    "runs/client-controls-status-1789407777014.txt"
+  ],
+  "restartProof": "runs/client-controls-status-1789407777014.txt",
+  "keyboardInputTested": false,
+  "sourceFilesHashed": 216,
+  "originalPreservation": "runs/original-preserved-persistent-controls.json",
+  "sustainedEvidence": "SUSTAINED-VALIDATION.md",
+  "fullAcceptanceComplete": false
+}

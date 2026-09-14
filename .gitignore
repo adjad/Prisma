@@ -41,3 +41,10 @@ replay_*.log
 /src/main/resources/natives/macos/*
 libs/
 .wrangler
+
+# local validation output
+*.gputrace/
+/rt-core/results/
+docs/development/runs/*.txt
+docs/development/runs/*.log
+docs/analysis/evidence/

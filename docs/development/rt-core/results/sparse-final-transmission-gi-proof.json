@@ -1,0 +1,7 @@
+{
+  "passed" : true,
+  "visibleEnvironmentLighting" : true,
+  "blackOccluderPreventsAmbientLeak" : true,
+  "coloredBounceThroughGlass" : true,
+  "indirectRedThroughGlass" : 0.19170229136943817
+}

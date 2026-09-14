@@ -1,0 +1,1 @@
+{"passed":true,"denoiserExecuted":true,"encodedFrames":49,"completedFrames":49,"historyResets":2,"rawVariance":0.001575685,"denoisedVariance":0.000116601,"varianceReductionPercent":92.600,"rawMean":0.842115,"denoisedMean":0.844487,"resetMean":1.000000,"rawCommandGpuMs":0.1622,"denoisedCommandGpuMs":0.6102,"alphaErrors":0,"bypassErrors":0,"invalidMatrixRejected":true}

@@ -1,0 +1,57 @@
+{
+  "metric": "Minecraft CPU frame loop, not presented frame intervals",
+  "resolution": [
+    1920,
+    1200
+  ],
+  "configurations": {
+    "entities-off-uncapped": {
+      "passes": 3,
+      "fpsRange": [
+        119.82810313811713,
+        119.98800119988002
+      ],
+      "p95FrameLoopMsRange": [
+        9.24874345,
+        9.2515479
+      ],
+      "evidence": "entities-off-uncapped-results.json"
+    },
+    "entities-on-uncapped": {
+      "passes": 3,
+      "fpsRange": [
+        119.91605875886879,
+        119.98800119988002
+      ],
+      "p95FrameLoopMsRange": [
+        9.2804167,
+        9.2963351
+      ],
+      "evidence": "entities-on-uncapped-results.json"
+    },
+    "entities-moving-uncapped": {
+      "passes": 3,
+      "fpsRange": [
+        119.9760047990402,
+        119.98800119988002
+      ],
+      "p95FrameLoopMsRange": [
+        9.2230744,
+        9.26150415
+      ],
+      "evidence": "entities-moving-uncapped-results.json"
+    },
+    "entities-on-cap60": {
+      "passes": 3,
+      "fpsRange": [
+        59.42275042444822,
+        59.722360930789975
+      ],
+      "p95FrameLoopMsRange": [
+        17.3013642,
+        17.5879039
+      ],
+      "evidence": "entities-on-cap60-results.json"
+    }
+  }
+}

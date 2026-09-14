@@ -1,0 +1,14 @@
+{
+  "archive": "2026-09-14_02_24_33-Minecrafy_RT_Test-26_2.zip",
+  "metric": "Minecraft client profiler ticktime (CPU-side frame loop; not presented interval)",
+  "frames": 599,
+  "duration_ms": 10012,
+  "profile_ticks": 599,
+  "render_loop_fps": 59.82820615261686,
+  "frame_loop_mean_ms": 16.701555594323874,
+  "frame_loop_p95_ms": 16.7531375,
+  "frame_loop_p99_ms": 17.7828225,
+  "frame_loop_max_ms": 22.26575,
+  "heap_mib_min": 637.3009033203125,
+  "heap_mib_max": 1435.8060302734375
+}

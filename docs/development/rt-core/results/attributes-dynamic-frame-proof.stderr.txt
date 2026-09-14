@@ -1,0 +1,1 @@
+Exact dynamic/static hit distance and primitive-offset checks: passed

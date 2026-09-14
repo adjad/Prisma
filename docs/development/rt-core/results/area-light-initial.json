@@ -1,0 +1,43 @@
+{
+  "initialGeometryEpoch" : 1,
+  "minecraftIntegration" : false,
+  "passed" : true,
+  "unchangedPublicationReused" : true,
+  "finiteVisibilitySegment" : true,
+  "failures" : 0,
+  "farFieldFalloffRatio" : 3.9847061529535099,
+  "oneAndTwoSidedEmission" : true,
+  "penumbraProfiles" : [
+    {
+      "maxNormalizedIrradianceError" : 0.0130822045281207,
+      "cpuPenumbra10To90" : 0.22639316075619365,
+      "gpuPenumbra10To90" : 0.22981994305588699,
+      "passed" : true,
+      "blockerHeight" : 1,
+      "emitterHalfWidth" : 1
+    },
+    {
+      "maxNormalizedIrradianceError" : 0.017384752478279031,
+      "cpuPenumbra10To90" : 0.95336693538541839,
+      "gpuPenumbra10To90" : 0.95577290339895571,
+      "passed" : true,
+      "blockerHeight" : 3,
+      "emitterHalfWidth" : 1
+    },
+    {
+      "maxNormalizedIrradianceError" : 0.016093437025963053,
+      "cpuPenumbra10To90" : 0.48065739743268959,
+      "gpuPenumbra10To90" : 0.47838766412001937,
+      "passed" : true,
+      "blockerHeight" : 3,
+      "emitterHalfWidth" : 0.5
+    }
+  ],
+  "removal" : true,
+  "invalidLightsPreserveState" : true,
+  "radianceColorPreserved" : true,
+  "unoccludedRelativeError" : 0.00032940548346942894,
+  "multipleLightsSum" : true,
+  "contactHardeningAndEmitterSize" : true,
+  "initialGeometryBuiltOnce" : true
+}

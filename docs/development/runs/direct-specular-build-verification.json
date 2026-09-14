@@ -1,0 +1,128 @@
+{
+  "time": "2026-09-14T18:22:34.810163+00:00",
+  "rendererSha256": "7ad34e78fd42b2d1beffb5e28eaa770507fd00e42fba230ddcc196eeb7bd7576",
+  "installedMatchesBuild": true,
+  "packagedAssetHashes": {
+    "assets/metallum/rt/trace.metal": "449bb549e5a999d07ed8c9e87ae2a86d8e8b652e7e2382c96768a51c7d9b48fc",
+    "native/macos-aarch64/librtcore.dylib": "6bfda1dbe6d1f9d91428e302c237186c524e1cd3f18b0b0ee30536c577eb6419"
+  },
+  "nativeProof": {
+    "passed": true,
+    "failures": 0,
+    "gpuAreaRadiance": [
+      5.265074,
+      1.60849252,
+      0.30654386
+    ],
+    "cpuQuadrature": [
+      5.26200638,
+      1.60902437,
+      0.30651208
+    ],
+    "texturedRgb": [
+      0.80225747,
+      0.0,
+      0.80816937
+    ],
+    "cutoutRgb": [
+      0.0,
+      0.0,
+      0.80597825
+    ],
+    "glassBefore": [
+      0.50448005,
+      0.50346853
+    ],
+    "glassAfter": [
+      0.50184041,
+      0.5040792
+    ],
+    "blockedRgb": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sunDelta": 0.61425488,
+    "sunReference": 0.6140237,
+    "finiteDiskDelta": 0.58081398
+  },
+  "metalApiAndShaderValidation": true,
+  "gpuRegressions": [
+    {
+      "test": "frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "temporal-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transparency-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "metalfx-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "dynamic-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-gi-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "edge-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "chunk-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "area-light-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "local-transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "physical-lighting-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "direct-specular-proof",
+      "exitCode": 0
+    }
+  ],
+  "settingsChecks": 32,
+  "clientCommandChecks": 12,
+  "liveImages": "runs/direct-specular-live-images.json",
+  "liveProfiles": [
+    "runs/direct-specular-before-results.json",
+    "runs/direct-specular-after-results.json",
+    "runs/direct-specular-aligned-results.json"
+  ],
+  "finalState": "runs/client-controls-status-1789410076728.txt",
+  "originalPreservation": "runs/original-preserved-direct-specular.json",
+  "sourceFilesHashed": 223,
+  "fullAcceptanceComplete": false,
+  "remainingQualityLimits": [
+    "HDR highlight range and tone mapping",
+    "secondary specular chains",
+    "primary texture detail",
+    "direct sampling on glass and water",
+    "coincident emitters",
+    "motion and streaming acceptance"
+  ]
+}

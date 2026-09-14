@@ -1,0 +1,13 @@
+{
+  "source": "analysis/runs/baseline-1920-presented.xml",
+  "pid": "65786",
+  "process_rows": {
+    "java (65786)": 6788
+  },
+  "callbacks": 6788,
+  "seconds": 30.349549125,
+  "callback_rate": 223.62770438686047,
+  "callback_interval_p95_ms": 16.6989205,
+  "callback_interval_p99_ms": 22.58140888,
+  "limitation": "Callback arrival timestamps are not validated display scanout times. Do not label callback rate as displayed FPS. Requested-time values in this Xcode/macOS combination are inconsistent."
+}

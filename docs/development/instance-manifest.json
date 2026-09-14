@@ -1,0 +1,56 @@
+{
+  "instance": "<user-home>/Library/Application Support/PrismLauncher/instances/26.2-Metal-RT-Development",
+  "sourceRevision": "fe3cc3b365dba03c2a7011d01086ef648ed42c9f",
+  "rendererSha256": "c03ccbf4d86037a24f41ce70fc82098a2be21c33fe80b56718647a44bd84ecb2",
+  "activeMods": [
+    "AsyncParticles-26.2.2.8+26.2.jar",
+    "ImmediatelyFast-Fabric-1.16.4+26.2.jar",
+    "ScalableLux-fabric-0.3.0-alpha.0.3-all.jar",
+    "c2me-fabric-mc26.2-0.4.2-alpha.0.52.jar",
+    "entityculling-fabric-1.10.5-mc26.2.jar",
+    "fabric-api-0.160.0+26.2.jar",
+    "fabric-language-kotlin-1.14.1+kotlin.2.4.20.jar",
+    "ferritecore-9.0.0-fabric.jar",
+    "fzzy_config-0.7.6+26.2.jar",
+    "lithium-fabric-0.25.3+mc26.2.jar",
+    "metallum-0.0.24-rt-dev.1.jar",
+    "particle_core-0.3.3+26.2.jar",
+    "sodium-fabric-0.9.2+mc26.2.jar",
+    "zconfig-1.0.0+26.x.jar"
+  ],
+  "disabledMods": [
+    "prisma-0.1.2-A.jar"
+  ],
+  "mode": "hybrid",
+  "stage": "metalfx-dynamic-validation",
+  "sessionControls": {
+    "samples": 3,
+    "dynamicTemporal": true,
+    "metalfx": false,
+    "localLights": true,
+    "frameCap": 60,
+    "sessionOnly": false,
+    "ao": 0.65,
+    "shadows": 0.65,
+    "reflections": 1,
+    "gi": 1,
+    "physicalLighting": false,
+    "directSpecular": true,
+    "toneMapping": true,
+    "exposureEv": 0
+  },
+  "persistentControls": {
+    "file": "minecraft/config/metallum-raytracing.properties",
+    "schemaVersion": 1,
+    "preset": "balanced",
+    "restartVerified": true,
+    "proof": "runs/client-controls-status-1789407777014.txt",
+    "physicalLighting": false,
+    "lastLiveProof": "runs/client-controls-status-1789413386660.txt",
+    "directSpecular": true,
+    "directSpecularRestartValidation": "automated settings proof; live baseline restart previously verified",
+    "toneMapping": true,
+    "exposureEv": 0,
+    "displayRestartValidation": "automated settings proof; new defaults verified at actual game startup"
+  }
+}

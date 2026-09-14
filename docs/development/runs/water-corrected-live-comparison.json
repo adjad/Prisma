@@ -1,0 +1,15 @@
+{
+  "comparison": "Corrected angular-visibility build, off-screen red wall present versus removed",
+  "region": [
+    750,
+    680,
+    1200,
+    765
+  ],
+  "mean_delta_rgb": [
+    0.562875816993464,
+    -0.7368888888888889,
+    -1.0709803921568628
+  ],
+  "caveat": "Small water Fresnel contribution at the steep viewing angle; wall removal also changes occlusion and GI. This is not isolated reflection energy."
+}

@@ -1,0 +1,12 @@
+{
+  "passed" : true,
+  "pixels" : 65536,
+  "gpuMs" : 0.58187497779726982,
+  "nearAmbientVisibility" : 0.671875,
+  "farAmbientVisibility" : 1,
+  "samplesPerEffect" : 64,
+  "blockedSunVisibility" : 0,
+  "gameplayIntegration" : false,
+  "litSunVisibility" : 1,
+  "invalidValues" : 0
+}

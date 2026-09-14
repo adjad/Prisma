@@ -1,0 +1,2 @@
+2026-09-14 10:01:06.700 frame-proof[82539:7163095] Metal API Validation Enabled
+historyTransfer=1, changedSceneRejected=1, statisticsRead=1

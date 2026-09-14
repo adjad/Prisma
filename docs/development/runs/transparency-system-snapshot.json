@@ -1,0 +1,24 @@
+{
+  "time": "2026-09-14T12:19:48.827951+00:00",
+  "limitation": "One end-of-stage snapshot, not peak memory, swap growth, or a sustained pressure measurement.",
+  "power": {
+    "exitCode": 0,
+    "output": "Now drawing from 'AC Power'\n -InternalBattery-0 (id=36307043)\t80%; AC attached; not charging present: true",
+    "error": ""
+  },
+  "swap": {
+    "exitCode": 0,
+    "output": "vm.swapusage: total = 3072.00M  used = 2131.12M  free = 940.88M  (encrypted)",
+    "error": ""
+  },
+  "process_rss_kib": {
+    "exitCode": 0,
+    "output": "73463 2315584 05:52",
+    "error": ""
+  },
+  "vm_stat": {
+    "exitCode": 0,
+    "output": "Mach Virtual Memory Statistics: (page size of 16384 bytes)\nPages free:                                    83131.\nPages active:                                 558252.\nPages inactive:                               551327.\nPages speculative:                              7473.\nPages throttled:                                   0.\nPages wired down:                             270888.\nPages purgeable:                               51259.\n\"Translation faults\":                     3048361489.\nPages copy-on-write:                        89342770.\nPages zero filled:                        2695855094.\nPages reactivated:                         226621657.\nPages purged:                              157459135.\nFile-backed pages:                            361000.\nAnonymous pages:                              756052.\nPages stored in compressor:                   113605.\nPages occupied by compressor:                  41390.\nDecompressions:                            547716082.\nCompressions:                              614075771.\nPageins:                                   127574831.\nPageouts:                                     329609.\nSwapins:                                     8589755.\nSwapouts:                                   10895474.\nPages tagged:                                 140641.\nPages tagged resident:                        128640.\nPages tagged compressed:                       12001.\nPages tag-storage:                             49152.\nPages tag-storage holding tags:                 5836.\nPages tag-storage free:                          487.\nPages tag-storage non-tag pageable:            42692.\nPages tag-storage non-tag wired:                  91.\nBytes of compressed tags:                    1661056.\nTagged compressions:                        23660468.\nTagged decompressions:                      22662367.",
+    "error": ""
+  }
+}

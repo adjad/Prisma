@@ -1,0 +1,175 @@
+{
+  "time": "2026-09-14T19:22:21.627321+00:00",
+  "rendererSha256": "c03ccbf4d86037a24f41ce70fc82098a2be21c33fe80b56718647a44bd84ecb2",
+  "installedMatchesBuild": true,
+  "packagedAssetHashes": {
+    "assets/metallum/rt/trace.metal": "46d30285d5ce6bcfe765262c230f75678cd3ca2cfe312af6efc1a8665e2c1d3d",
+    "native/macos-aarch64/librtcore.dylib": "5711af10b21d8066f1b5d9e2d01dba23f21ab58c4e84a7160c06068a6c4ddce3"
+  },
+  "nativeProofs": {
+    "metalfx-reactive-shadow-validated": {
+      "passed": true,
+      "failures": 0,
+      "initialShadow": 0.01006812,
+      "initialLit": 0.8028965,
+      "movedOldLocation": 0.80047386,
+      "movedNewShadow": 0.02536796,
+      "removedOldLocation": 0.80136483,
+      "removedNewLocation": 0.80161973,
+      "completedFrames": 102,
+      "historyResets": 1
+    },
+    "metalfx-reactive-reflection-validated": {
+      "passed": true,
+      "failures": 0,
+      "initialReflection": 1.60427296,
+      "initialEmpty": 0.0,
+      "movedOldLocation": 0.07941546,
+      "movedNewReflection": 1.69648449,
+      "removedOldLocation": 0.00193096,
+      "removedNewLocation": 0.05989666,
+      "completedFrames": 102,
+      "historyResets": 1
+    },
+    "metalfx-reactive-temporal": {
+      "passed": true,
+      "aoVarianceRatio": 0.01967884,
+      "reflectionVarianceRatio": 0.02009019,
+      "historyLength": 32,
+      "onePixelReprojection": true,
+      "historyRejectionCasesPassed": 5,
+      "oddFramebufferSize": true,
+      "dynamicVarianceRatio": 0.08476789,
+      "movingShadowMaxError": 0.0,
+      "removedReflectionMaxError": 0.0,
+      "sparseRadianceMseRatio": 0.07049303,
+      "sparseRadianceEnergyRatio": 0.99699565,
+      "sparseRadianceRemovedMean": 0.00042648,
+      "metalfxRejectionMaskCases": 7,
+      "minecraftIntegration": false
+    },
+    "metalfx-reactive-dynamic": {
+      "passed": true,
+      "denoiserExecuted": true,
+      "encodedFrames": 97,
+      "completedFrames": 97,
+      "historyResets": 50,
+      "globalResetVariance": 0.00106087,
+      "targetedVariance": 0.000434782,
+      "varianceReductionPercent": 59.016,
+      "globalResetMean": 0.843925,
+      "targetedMean": 0.845416,
+      "resetMean": 1.0,
+      "rawCommandGpuMs": 0.7032,
+      "denoisedCommandGpuMs": 0.8,
+      "alphaErrors": 0,
+      "bypassErrors": 0,
+      "invalidMatrixRejected": true
+    }
+  },
+  "metalApiAndShaderValidation": [
+    "moving shadow",
+    "moving reflection"
+  ],
+  "gpuRegressions": [
+    {
+      "test": "frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "temporal-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transparency-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "metalfx-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "dynamic-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "transmission-gi-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "edge-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "chunk-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "area-light-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "local-transport-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "physical-lighting-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "direct-specular-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "hdr-frame-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "metalfx-dynamic-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "metalfx-shadow-proof",
+      "exitCode": 0
+    },
+    {
+      "test": "metalfx-reflection-proof",
+      "exitCode": 0
+    }
+  ],
+  "liveProfiles": [
+    "runs/fx-motion-before-results.json",
+    "runs/fx-motion-after-results.json"
+  ],
+  "liveImages": "runs/fx-dynamic-live-images.json",
+  "motionCompletion": [
+    "runs/fx-entity-motion-1789413047433-complete.txt",
+    "runs/fx-entity-motion-1789413233292-complete.txt"
+  ],
+  "cleanup": {
+    "time": "2026-09-14T19:20:50.365754Z",
+    "serverAuthoritative": true,
+    "worldsChecked": 3,
+    "remainingTestEntities": 0
+  },
+  "finalState": "runs/client-controls-status-1789413386660.txt",
+  "originalPreservation": "runs/original-preserved-fx-dynamic.json",
+  "sourceFilesHashed": 234,
+  "fullAcceptanceComplete": false,
+  "remainingQualityLimits": [
+    "small first-frame reflected-energy residual",
+    "gold-face speckle variance increases in live comparison",
+    "entity motion vectors",
+    "isolated long frame hitches in both modes",
+    "profiling-time macOS version/report-generation errors",
+    "water/glass motion and broader presentation acceptance"
+  ]
+}

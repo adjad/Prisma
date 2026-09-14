@@ -1,0 +1,17 @@
+{
+  "twoBounceEmissionPartition" : true,
+  "passed" : true,
+  "redWallIndirect" : 0.10587908327579498,
+  "lampLitWallReflection" : true,
+  "blueWallIndirect" : 0.10587908327579498,
+  "lampRemovalClearsIndirect" : true,
+  "partitionedImmediateEmission" : 0,
+  "failures" : 0,
+  "reflectedRed" : 0.15259811282157898,
+  "mirrorEmitterRetained" : true,
+  "transmittedLocalLightWithGiOff" : 0.037757139652967453,
+  "transmissionLampRemoval" : true,
+  "blockedReflection" : 0,
+  "irradianceOverPiReference" : 0.15391485990615694,
+  "unpartitionedBsdfEmission" : 0.92993170022964478
+}

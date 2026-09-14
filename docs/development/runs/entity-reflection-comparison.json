@@ -1,0 +1,67 @@
+{
+  "description": "Reflections only; same camera/time, normal cow off-screen; PNGs unmodified",
+  "roi": [
+    500,
+    250,
+    1300,
+    750
+  ],
+  "threshold": "maximum absolute RGB channel difference > 10 on 0..255 values",
+  "sources": {
+    "baseline": {
+      "file": "capture-entity-reflection-before.png",
+      "sha256": "a0a529595a11b3d5e089305d3d66e75bf23428033087a485ec1cef56997e8b04"
+    },
+    "original": {
+      "file": "capture-entity-reflection-only.png",
+      "sha256": "1c3e77300a3cc89fdaa838c6f93d1ad457c07e594d06894034e2d040fd9aaa01"
+    },
+    "moved": {
+      "file": "capture-entity-reflection-moved.png",
+      "sha256": "180a668aa252d741d766227b086842f2010fcef2de5f470ae843c6d8dbfeb142"
+    },
+    "removed": {
+      "file": "capture-entity-reflection-removed.png",
+      "sha256": "35a4e0ec49b2be65ca6cc7213029f023d1a45aa942604d443e81dbc8428b0bb7"
+    }
+  },
+  "comparisons": {
+    "original": {
+      "meanAbsMaxChannelDifference": 0.6757575,
+      "maximumDifference": 32.0,
+      "pixelsAbove10": 3553,
+      "centroid": [
+        957.8542077117929,
+        484.9394877568252
+      ],
+      "bounds": [
+        932,
+        444,
+        983,
+        537
+      ]
+    },
+    "moved": {
+      "meanAbsMaxChannelDifference": 0.6858075,
+      "maximumDifference": 30.0,
+      "pixelsAbove10": 4235,
+      "centroid": [
+        848.2278630460448,
+        403.1714285714286
+      ],
+      "bounds": [
+        816,
+        356,
+        885,
+        451
+      ]
+    },
+    "removed": {
+      "meanAbsMaxChannelDifference": 0.423715,
+      "maximumDifference": 3.0,
+      "pixelsAbove10": 0,
+      "centroid": null,
+      "bounds": null
+    }
+  }
+}
